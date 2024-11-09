@@ -22,7 +22,7 @@ public class Enemy : MonoBehaviour, i_Update
     private Vector2 chargeTarget;
     private void Start() { UpdateManager.Instance.RegisterUpdate(this); currentHealth = maxHealth; playerTransform = GameObject.FindGameObjectWithTag("Player").transform; }
     private void OnDisable() { UpdateManager.Instance.UnregisterUpdate(this); }
-    public void CostumUpdate()
+    public void CustomUpdate()
     {
         if (currentHealth <= 0f)
         {
