@@ -12,9 +12,13 @@ public class WaterAbility : MonoBehaviour, i_Update
     private PlayerStats playerMovement;
     private bool useWaterAbility = false;
     private float originalSpeed;
+    private float lastAbilityUseTime = 0f;  
+    public float cooldown = 2f;    
     private void Start()
     {
         UpdateManager.Instance.RegisterUpdate(this);
+        
+        // saves base player movement speed
         playerMovement = GetComponent<PlayerStats>();
         if (playerMovement != null)
         {
@@ -25,10 +29,15 @@ public class WaterAbility : MonoBehaviour, i_Update
 
     public void CustomUpdate()
     {
+        // use ability on button press
         if (Input.GetKeyDown(KeyCode.Alpha9) && !useWaterAbility)
         {
-            StartCoroutine(UsingWaterAbility());
+            if (lastAbilityUseTime >= cooldown)
+            {
+                StartCoroutine(UsingWaterAbility());
+            }
         }
+        lastAbilityUseTime += Time.deltaTime;
     }
 
     private IEnumerator UsingWaterAbility()
@@ -46,6 +55,7 @@ public class WaterAbility : MonoBehaviour, i_Update
         }
         
         playerMovement.movesSpeed = originalSpeed;
+        lastAbilityUseTime = 0f;
         BoolControler.Instance.useWaterAbility = false;
     }
 }
