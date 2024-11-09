@@ -1,5 +1,4 @@
 using System.Collections;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class PlayerDash : MonoBehaviour
@@ -22,7 +21,7 @@ public class PlayerDash : MonoBehaviour
         }
 
         // Dash auslösen, wenn die Space-Taste gedrückt und der Cooldown vorbei ist
-        if (Input.GetKeyDown("Jump"))
+        if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Joystick1Button1))
         {
             if (lastDashTime >= cooldown)
             {
