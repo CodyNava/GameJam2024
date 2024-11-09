@@ -577,7 +577,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -32
+  m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6,
     type: 3}
   m_Color: {r: 0.5943396, g: 0.5943396, b: 0.5943396, a: 1}
@@ -816,6 +816,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy
       objectReference: {fileID: 0}
+    - target: {fileID: 2150907290467153894, guid: 439e03cda44ffad4bbe32ed9b9a68950,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4615063663823003647, guid: 439e03cda44ffad4bbe32ed9b9a68950,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -879,10 +884,20 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 332213880410213073, guid: bdacd18c9cd9dc644ac5c6cf26c4a1ff,
+        type: 3}
+      propertyPath: m_Name
+      value: Fire
+      objectReference: {fileID: 0}
     - target: {fileID: 4782648880747417232, guid: bdacd18c9cd9dc644ac5c6cf26c4a1ff,
         type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 4782648880747417232, guid: bdacd18c9cd9dc644ac5c6cf26c4a1ff,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6751779687935793125, guid: bdacd18c9cd9dc644ac5c6cf26c4a1ff,
         type: 3}

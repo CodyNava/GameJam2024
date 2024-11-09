@@ -86,11 +86,7 @@ public class Enemy : MonoBehaviour, i_Update
     }
     public void DealDamage()
     {
-        if (isCharging)
-        {
-            PlayerStats.Instance.currentHealth -= damage * 2;
-        }
-        else
+        if (!BoolControler.Instance.isDashing)
         {
             PlayerStats.Instance.currentHealth -= damage;
         }
