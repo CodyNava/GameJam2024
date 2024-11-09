@@ -13,6 +13,8 @@ public class PlayerDash : MonoBehaviour, i_Update
     private float lastDashTime = 0f;        // Zeitpunkt für denletzten Dash
     private Vector2 lastMovementDirection;  // Speichert die letzte Bewegungsrichtung
     private bool isDashing = false;
+    public TrailRenderer trailRenderer;
+    public Animator dashAnimation;
 
     public void CustomUpdate()
     {
@@ -37,9 +39,9 @@ public class PlayerDash : MonoBehaviour, i_Update
 
     IEnumerator Dash()
     {
+        dashAnimation.SetTrigger("Dash");
         BoolControler.Instance.isDashing = true;
-
-        // Zielposition basierend auf der letzten Bewegungsrichtung berechnen
+        trailRenderer.emitting = true;
         Vector2 dashPosition = (Vector2)transform.position + lastMovementDirection * dashDistance;
 
         float timeelapsed = 0f;
@@ -54,5 +56,6 @@ public class PlayerDash : MonoBehaviour, i_Update
         }
         lastDashTime = 0f;
         BoolControler.Instance.isDashing = false;
+        trailRenderer.emitting = false;
     }
 }

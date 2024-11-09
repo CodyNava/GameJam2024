@@ -1,14 +1,15 @@
 using UnityEngine;
 
-public class PlayerMovement : MonoBehaviour,i_Update
+public class PlayerMovement : MonoBehaviour, i_Update
 
-    
+
 {
     [Header("Animator")]
-    //public Animator running;
+    public Animator running;
     [Header("Movement")] // Geschwindigkeit des Spielers
     private Rigidbody2D rb;               // Referenz zum Rigidbody2D des Spielers
-    private Vector2 movement;             // Bewegungsvektor
+    private Vector2 movement;
+    private bool facingRight = true;
 
     private void OnDisable() { UpdateManager.Instance.UnregisterUpdate(this); }
 
@@ -18,10 +19,10 @@ public class PlayerMovement : MonoBehaviour,i_Update
         rb = GetComponent<Rigidbody2D>(); // Rigidbody2D holen
     }
 
-   public void CustomUpdate()
+    public void CustomUpdate()
     {
-       OnMove();
-      
+        OnMove();
+
     }
 
     void FixedUpdate()
@@ -35,9 +36,28 @@ public class PlayerMovement : MonoBehaviour,i_Update
         float horizontalInput = Input.GetAxisRaw("Horizontal");
         float vertiacalInput = Input.GetAxisRaw("Vertical");
 
-        //running.SetFloat("speed", Mathf.Abs(vertiacalInput + horizontalInput));
+        running.SetFloat("Speed", Mathf.Abs(vertiacalInput + horizontalInput));
 
         Vector3 inputVector = new Vector3(horizontalInput, vertiacalInput, 0);
         transform.position += inputVector * Time.deltaTime * PlayerStats.Instance.movesSpeed;
+
+        if (horizontalInput < 0 && !facingRight)
+        {
+            Flip();
+        }
+        else if (horizontalInput > 0 && facingRight)
+        {
+            Flip();
+        }
+    }
+
+    private void Flip()
+    {
+        // Blickrichtung umdrehen
+        facingRight = !facingRight;
+        Vector3 scale = transform.localScale;
+        scale.x *= -1; // X-Skala invertieren
+        transform.localScale = scale;
     }
 }
+
