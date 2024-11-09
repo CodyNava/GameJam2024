@@ -10,6 +10,7 @@ public class BoolControler : MonoBehaviour
     public bool isWater;
     public bool isNature;
     public bool isDead;
+    public bool isDashing;
 
     //-----------//
     private void Awake()
