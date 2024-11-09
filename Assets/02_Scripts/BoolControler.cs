@@ -6,6 +6,7 @@ public class BoolControler : MonoBehaviour
 
     //-----------//
 
+    public bool isNormal;
     public bool isFire;
     public bool isWater;
     public bool isNature;
