@@ -37,7 +37,7 @@ public class Enemy : MonoBehaviour, i_Update
     }
     private void DetectAndChargePlayer()
     {
-        if (meleeEnemy == true)
+        if (meleeEnemy)
         {
             if (playerTransform != null && !isCharging)
             {
