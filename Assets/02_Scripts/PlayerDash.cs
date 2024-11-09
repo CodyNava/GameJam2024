@@ -1,10 +1,15 @@
+using System.Collections;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class PlayerDash : MonoBehaviour
 {
-    public float dashDistance = 3f;          // Entfernung des Dashes
-    private float nextDashTime = 0f;         // Zeitpunkt für den nächsten Dash
-    private Vector2 lastMovementDirection;   // Speichert die letzte Bewegungsrichtung
+    public float dashDistance = 3f;         // Entfernung des Dashes
+    public float dashTime = 2f;           // Dauer des Dashes
+    public float cooldown = 2f;             //Dash cooldown
+    private float lastDashTime = 0f;        // Zeitpunkt für denletzten Dash
+    private Vector2 lastMovementDirection;  // Speichert die letzte Bewegungsrichtung
+    private bool isDashing = false;
 
     void Update()
     {
@@ -19,17 +24,32 @@ public class PlayerDash : MonoBehaviour
         // Dash auslösen, wenn die Space-Taste gedrückt und der Cooldown vorbei ist
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            Dash();
+            if (lastDashTime >= cooldown)
+            {
+                StartCoroutine(Dash());
+            }
         }
+        lastDashTime += Time.deltaTime;
     }
 
-    void Dash()
+    IEnumerator Dash()
     {
-    
+        isDashing = true;
+
         // Zielposition basierend auf der letzten Bewegungsrichtung berechnen
         Vector2 dashPosition = (Vector2)transform.position + lastMovementDirection * dashDistance;
 
-        // Spieler teleportieren
-        transform.position = dashPosition;
+        float timeelapsed = 0f;
+        while (timeelapsed <= dashTime)
+        {
+            float dashspeed = dashTime;
+
+
+            transform.position = Vector2.Lerp(transform.position, dashPosition, dashspeed);
+            timeelapsed += Time.deltaTime;
+            yield return null;
+        }
+        lastDashTime = 0f;
+        isDashing = false;
     }
 }
