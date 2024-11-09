@@ -6,11 +6,10 @@ public class PlayerMovement : MonoBehaviour,i_Update
 {
     [Header("Animator")]
     //public Animator running;
-    [Header("Movement")]
-    public float speed = 5f;          // Geschwindigkeit des Spielers
+    [Header("Movement")] // Geschwindigkeit des Spielers
     private Rigidbody2D rb;               // Referenz zum Rigidbody2D des Spielers
     private Vector2 movement;             // Bewegungsvektor
-    
+
     private void OnDisable() { UpdateManager.Instance.UnregisterUpdate(this); }
 
     void Start()
@@ -28,7 +27,7 @@ public class PlayerMovement : MonoBehaviour,i_Update
     void FixedUpdate()
     {
         // Bewegung anwenden
-        rb.MovePosition(rb.position + movement * speed * Time.fixedDeltaTime);
+        rb.MovePosition(rb.position + movement * PlayerStats.Instance.movesSpeed * Time.fixedDeltaTime);
     }
     public void OnMove()
     {
@@ -39,6 +38,6 @@ public class PlayerMovement : MonoBehaviour,i_Update
         //running.SetFloat("speed", Mathf.Abs(vertiacalInput + horizontalInput));
 
         Vector3 inputVector = new Vector3(horizontalInput, vertiacalInput, 0);
-        transform.position += inputVector * Time.deltaTime * speed;
+        transform.position += inputVector * Time.deltaTime * PlayerStats.Instance.movesSpeed;
     }
 }

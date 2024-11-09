@@ -1,35 +1,51 @@
+using System.Collections;
 using UnityEngine;
 
-public class EnemyMovement : MonoBehaviour
+public class WaterAbility : MonoBehaviour, i_Update
 {
-    private bool isStunned = false;
-    private float stunEndTime;
+    private void OnDisable() { UpdateManager.Instance.UnregisterUpdate(this); }
 
-    void Update()
+
+    [SerializeField] private float waterBoost = 2f;
+    [SerializeField] private float boostDuration = 2f;
+    
+    private PlayerStats playerMovement;
+    private bool useWaterAbility = false;
+    private float originalSpeed;
+    private void Start()
     {
-        if (isStunned)
+        UpdateManager.Instance.RegisterUpdate(this);
+        playerMovement = GetComponent<PlayerStats>();
+        if (playerMovement != null)
         {
-            // Überprüfen, ob der Stun vorbei ist
-            if (Time.time >= stunEndTime)
-            {
-                isStunned = false;
-            }
-            return; // Stoppt die Bewegung, wenn der Gegner gestunnt ist
+            originalSpeed = playerMovement.movesSpeed;
+            print(originalSpeed);
         }
-
-        // Hier kannst du den normalen Bewegungs-Code des Gegners einfügen
-        MoveEnemy();
     }
 
-    public void DisableMovement(float duration)
+    public void CustomUpdate()
     {
-        isStunned = true;
-        stunEndTime = Time.time + duration;
+        if (Input.GetKeyDown(KeyCode.Alpha9) && !useWaterAbility)
+        {
+            StartCoroutine(UsingWaterAbility());
+        }
     }
 
-    void MoveEnemy()
+    private IEnumerator UsingWaterAbility()
     {
-        // Beispielbewegungscode, z.B. einfaches Vorwärtslaufen
-        transform.Translate(Vector2.left * Time.deltaTime);
+        BoolControler.Instance.useWaterAbility = true;
+        
+        float timeelapsed = 0f;
+        
+        while (timeelapsed <= boostDuration)
+        {
+            playerMovement.movesSpeed = waterBoost;
+            
+            timeelapsed += Time.deltaTime;
+            yield return null;
+        }
+        
+        playerMovement.movesSpeed = originalSpeed;
+        BoolControler.Instance.useWaterAbility = false;
     }
 }
