@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 5411711216502122582}
   - component: {fileID: 7572767065927421280}
   m_Layer: 0
-  m_Name: Enemy
+  m_Name: MeeleEnemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -57,6 +57,8 @@ MonoBehaviour:
   chargeDelay: 0.7
   chargeDistance: 3
   chargeCoolDown: 0
+  rangedEnemy: 0
+  meleeEnemy: 1
   chargeReady: 1
   isDead: 0
   isCharging: 0
