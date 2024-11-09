@@ -5,7 +5,7 @@ public class PlayerMovement : MonoBehaviour,i_Update
     
 {
     [Header("Animator")]
-    public Animator running;
+    //public Animator running;
     [Header("Movement")]
     public float speed = 5f;          // Geschwindigkeit des Spielers
     private Rigidbody2D rb;               // Referenz zum Rigidbody2D des Spielers
@@ -36,7 +36,7 @@ public class PlayerMovement : MonoBehaviour,i_Update
         float horizontalInput = Input.GetAxisRaw("Horizontal");
         float vertiacalInput = Input.GetAxisRaw("Vertical");
 
-        running.SetFloat("speed", Mathf.Abs(vertiacalInput + horizontalInput));
+        //running.SetFloat("speed", Mathf.Abs(vertiacalInput + horizontalInput));
 
         Vector3 inputVector = new Vector3(horizontalInput, vertiacalInput, 0);
         transform.position += inputVector * Time.deltaTime * speed;
