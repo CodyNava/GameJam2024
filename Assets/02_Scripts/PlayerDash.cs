@@ -1,9 +1,12 @@
 using System.Collections;
-using Unity.VisualScripting;
 using UnityEngine;
 
-public class PlayerDash : MonoBehaviour
+public class PlayerDash : MonoBehaviour, i_Update
 {
+    private void Start() { UpdateManager.Instance.RegisterUpdate(this); }
+    private void OnDisable() { UpdateManager.Instance.UnregisterUpdate(this); }
+
+
     public float dashDistance = 3f;         // Entfernung des Dashes
     public float dashTime = 2f;           // Dauer des Dashes
     public float cooldown = 2f;             //Dash cooldown
@@ -11,7 +14,7 @@ public class PlayerDash : MonoBehaviour
     private Vector2 lastMovementDirection;  // Speichert die letzte Bewegungsrichtung
     private bool isDashing = false;
 
-    void Update()
+    public void CustomUpdate()
     {
         // Eingaben prüfen und die letzte Bewegungsrichtung speichern
         Vector2 inputDirection = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
@@ -22,7 +25,7 @@ public class PlayerDash : MonoBehaviour
         }
 
         // Dash auslösen, wenn die Space-Taste gedrückt und der Cooldown vorbei ist
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Joystick1Button1))
         {
             if (lastDashTime >= cooldown)
             {
@@ -34,7 +37,7 @@ public class PlayerDash : MonoBehaviour
 
     IEnumerator Dash()
     {
-        isDashing = true;
+        BoolControler.Instance.isDashing = true;
 
         // Zielposition basierend auf der letzten Bewegungsrichtung berechnen
         Vector2 dashPosition = (Vector2)transform.position + lastMovementDirection * dashDistance;
@@ -50,6 +53,6 @@ public class PlayerDash : MonoBehaviour
             yield return null;
         }
         lastDashTime = 0f;
-        isDashing = false;
+        BoolControler.Instance.isDashing = false;
     }
 }

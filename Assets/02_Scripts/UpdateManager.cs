@@ -38,7 +38,7 @@ public class UpdateManager : MonoBehaviour
     {
         foreach (var update in updates)
         {
-            update.CostumUpdate();
+            update.CustomUpdate();
         }
     }
 }

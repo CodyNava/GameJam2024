@@ -61,7 +61,7 @@ public class FormChanger : MonoBehaviour
 {
     private void Start() { UpdateManager.Instance.RegisterUpdate(this); }
     private void OnDisable() { UpdateManager.Instance.UnregisterUpdate(this); }
-    public void CostumUpdate()
+    public void CustomUpdate()
     {
         if (BoolControler.Instance.isFire) { FireFormEnabled(); }
         if (BoolControler.Instance.isWater) { WaterFormEnabled(); }

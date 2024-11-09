@@ -19,7 +19,7 @@ public class PlayerMovement : MonoBehaviour,i_Update
         rb = GetComponent<Rigidbody2D>(); // Rigidbody2D holen
     }
 
-   public void CostumUpdate()
+   public void CustomUpdate()
     {
        OnMove();
       

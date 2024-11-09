@@ -15,6 +15,8 @@ public class Enemy : MonoBehaviour, i_Update
     public float chargeDistance;
     public float chargeCoolDown;
     [Header("Bools")]
+    public bool rangedEnemy;
+    public bool meleeEnemy;
     public bool chargeReady;
     public bool isDead;
     public bool isCharging;
@@ -22,7 +24,7 @@ public class Enemy : MonoBehaviour, i_Update
     private Vector2 chargeTarget;
     private void Start() { UpdateManager.Instance.RegisterUpdate(this); currentHealth = maxHealth; playerTransform = GameObject.FindGameObjectWithTag("Player").transform; }
     private void OnDisable() { UpdateManager.Instance.UnregisterUpdate(this); }
-    public void CostumUpdate()
+    public void CustomUpdate()
     {
         if (currentHealth <= 0f)
         {
@@ -35,20 +37,23 @@ public class Enemy : MonoBehaviour, i_Update
     }
     private void DetectAndChargePlayer()
     {
-        if (playerTransform != null && !isCharging)
+        if (meleeEnemy == true)
         {
-            float distanceToPlayer = Vector2.Distance(transform.position, playerTransform.position);
+            if (playerTransform != null && !isCharging)
+            {
+                float distanceToPlayer = Vector2.Distance(transform.position, playerTransform.position);
 
-            if (distanceToPlayer <= detectionRadius && distanceToPlayer > chargeDistance)
-            {
-                transform.position = Vector2.MoveTowards(transform.position, playerTransform.position, moveSpeed * Time.deltaTime);
-            }
-            else if (distanceToPlayer <= chargeDistance)
-            {
-                chargeTarget = playerTransform.position;
-                if (chargeReady)
+                if (distanceToPlayer <= detectionRadius && distanceToPlayer > chargeDistance)
                 {
-                    StartCoroutine(PauseAndCharge());
+                    transform.position = Vector2.MoveTowards(transform.position, playerTransform.position, moveSpeed * Time.deltaTime);
+                }
+                else if (distanceToPlayer <= chargeDistance)
+                {
+                    chargeTarget = playerTransform.position;
+                    if (chargeReady)
+                    {
+                        StartCoroutine(PauseAndCharge());
+                    }
                 }
             }
         }
@@ -81,11 +86,7 @@ public class Enemy : MonoBehaviour, i_Update
     }
     public void DealDamage()
     {
-        if (isCharging)
-        {
-            PlayerStats.Instance.currentHealth -= damage * 2;
-        }
-        else
+        if (!BoolControler.Instance.isDashing)
         {
             PlayerStats.Instance.currentHealth -= damage;
         }

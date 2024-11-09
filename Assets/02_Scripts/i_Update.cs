@@ -1,4 +1,4 @@
 public interface i_Update
 {
-    void CostumUpdate();
+    void CustomUpdate();
 }
