@@ -3,7 +3,7 @@ using static CharacterForms;
 
 public class Collectible : MonoBehaviour
 {
-    public CharacterForm Normal; // Die Form, die erforderlich ist, um das Collectible einzusammeln
+    public CharacterForm Normal; //vier verschiedene Formen
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -12,7 +12,7 @@ public class Collectible : MonoBehaviour
         if (player != null)
         {
             player.CollectItem(requiredForm);
-            Destroy(gameObject); // Collectible zerstören nach dem Einsammeln
+            Destroy(gameObject); 
         }
     }
 }

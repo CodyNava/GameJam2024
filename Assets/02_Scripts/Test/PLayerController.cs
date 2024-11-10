@@ -4,11 +4,11 @@ using static CharacterForms;
 
 public class PlayerController : MonoBehaviour
 {
-    public CharacterForm currentForm = CharacterForm.Normal; // Startform
-    public int collectedCount = 0; // Anzahl gesammelter Collectibles
-    public Text collectibleCounterText; // Referenz zur UI-Textkomponente
+    public CharacterForm currentForm = CharacterForm.Normal; // Start Form
+    public int collectedCount = 0; 
+    public Text collectibleCounterText; 
 
-    private int totalCollectibles = 4; // Maximale Anzahl der Collectibles
+    private int totalCollectibles = 4; 
 
     private void Start()
     {
@@ -22,7 +22,7 @@ public class PlayerController : MonoBehaviour
         Debug.Log("Changed form to: " + currentForm);
     }
 
-    // Methode zum Einsammeln der Collectibles
+    
     public void CollectItem(CharacterForm requiredForm)
     {
         if (currentForm == requiredForm)
@@ -41,7 +41,7 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    // Aktualisiere den UI-Text für den Zähler
+    
     private void UpdateCollectibleCounter()
     {
         collectibleCounterText.text = collectedCount + "/" + totalCollectibles;
