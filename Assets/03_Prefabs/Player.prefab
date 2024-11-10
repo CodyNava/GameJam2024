@@ -98,7 +98,7 @@ GameObject:
   - component: {fileID: 6865396610678762359}
   - component: {fileID: 1477638712027312714}
   m_Layer: 0
-  m_Name: Trail
+  m_Name: NormalForm_DashTrail
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -254,6 +254,7 @@ GameObject:
   - component: {fileID: 1704492576964458631}
   - component: {fileID: 6527674128729575425}
   - component: {fileID: 223375749631706719}
+  - component: {fileID: 1972435700805937315}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -277,6 +278,7 @@ Transform:
   - {fileID: 2137371174456899226}
   - {fileID: 2845777322393323667}
   - {fileID: 6865396610678762359}
+  - {fileID: 5204649210591320693}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &2747365055062370402
@@ -322,16 +324,16 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 0}
+  m_SortingOrder: 20
+  m_Sprite: {fileID: -1286136381, guid: cd06a9e2be8b135488716dd60caa81dd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.25, y: 0.2}
+  m_Size: {x: 0.26, y: 0.25}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!50 &3779925804506205294
@@ -439,8 +441,8 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.25, y: 0.21}
-    newSize: {x: 0.26, y: 0.2}
+    oldSize: {x: 0.28, y: 0.23}
+    newSize: {x: 0.26, y: 0.25}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -518,6 +520,24 @@ MonoBehaviour:
   cooldownSlider: []
   canChangeForm: 1
   animator: {fileID: 6527674128729575425}
+--- !u!114 &1972435700805937315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4782648880747417232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28bbc52213c28fc4a9f1280671b2f61d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shockWave: {fileID: 4751021621133734562, guid: ba47343457a4ef2499ff9e449d303c6d,
+    type: 3}
+  ShockWaveSpawnTransform: {fileID: 5204649210591320693}
+  shockWaveDuration: 0.6
+  shockWaveCooldown: 2
+  canUseAbility: 1
 --- !u!1 &6242772293541280157
 GameObject:
   m_ObjectHideFlags: 0
@@ -605,3 +625,34 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &7751125072449627096
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5204649210591320693}
+  m_Layer: 0
+  m_Name: StoneForm_ShockWaveSpawnPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5204649210591320693
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7751125072449627096}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6751779687935793125}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

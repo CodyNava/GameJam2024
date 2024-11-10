@@ -50,13 +50,14 @@ MonoBehaviour:
   maxHealth: 5
   currentHealth: 5
   damage: 1
-  deathTime: 1
+  deathTime: 0.1
   detectionRadius: 5
   moveSpeed: 2
   chargeSpeed: 4
   chargeDelay: 0.7
   chargeDistance: 3
   chargeCoolDown: 0
+  stunTime: 5
   hitEffect: {fileID: 5239962237654259831}
   rangedEnemy: 0
   meleeEnemy: 1
@@ -79,7 +80,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -89,8 +90,8 @@ Rigidbody2D:
     m_Bits: 0
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 7
+  m_CollisionDetection: 1
+  m_Constraints: 4
 --- !u!61 &7572767065927421280
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5047,7 +5048,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 10
   m_Sprite: {fileID: 1338282985, guid: b9d0e3fdb91ecf24ea736a6050a8637e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

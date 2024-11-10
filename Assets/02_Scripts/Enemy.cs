@@ -1,4 +1,3 @@
-using System.Collections;
 using UnityEngine;
 
 public class Enemy : MonoBehaviour, i_Update
@@ -23,6 +22,7 @@ public class Enemy : MonoBehaviour, i_Update
     public bool chargeReady;
     public bool isDead;
     public bool isCharging;
+    public bool isEnemyStunned;
 
     public Animator animator;
     private Transform playerTransform;
@@ -37,15 +37,12 @@ public class Enemy : MonoBehaviour, i_Update
         }
         else
         {
-            if (!BoolControler.Instance.isEnemyStunned)
+            if (!isEnemyStunned)
             {
                 DetectAndChargePlayer();
             }
         }
     }
-
-    
-    
     private void DetectAndChargePlayer()
     {
         if (meleeEnemy)
@@ -72,7 +69,6 @@ public class Enemy : MonoBehaviour, i_Update
                     animator.SetBool("IsMoving", false);
                 }
             }
-
         }
     }
     private System.Collections.IEnumerator PauseAndCharge()
@@ -97,6 +93,10 @@ public class Enemy : MonoBehaviour, i_Update
             TakeDamage();
             DealDamage();
         }
+        if (BoolControler.Instance.useWaterAbility && collision.gameObject.tag == "Player")
+        {
+            StartCoroutine(PauseMovement());
+        }
     }
     public void TakeDamage()
     {
@@ -114,5 +114,11 @@ public class Enemy : MonoBehaviour, i_Update
     {
         Destroy(gameObject, deathTime);
         isDead = true;
+    }
+    public System.Collections.IEnumerator PauseMovement()
+    {
+        isEnemyStunned = true;
+        yield return new WaitForSeconds(5f);
+        isEnemyStunned = false;
     }
 }

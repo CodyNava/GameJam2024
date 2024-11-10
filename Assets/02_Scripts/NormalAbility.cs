@@ -1,42 +1,39 @@
 using System.Collections;
 using UnityEngine;
 
-public class PlayerDash : MonoBehaviour, i_Update
+public class NormalAbility : MonoBehaviour, i_Update
 {
     private void Start() { UpdateManager.Instance.RegisterUpdate(this); }
     private void OnDisable() { UpdateManager.Instance.UnregisterUpdate(this); }
 
-
-    public float dashDistance = 3f;         // Entfernung des Dashes
-    public float dashTime = 2f;           // Dauer des Dashes
-    public float cooldown = 2f;             //Dash cooldown
-    [SerializeField] float lastDashTime = 0f;        // Zeitpunkt für denletzten Dash
-    private Vector2 lastMovementDirection;  // Speichert die letzte Bewegungsrichtung
+    public float dashDistance = 3f;
+    public float dashTime = 2f;
+    public float cooldown = 2f;
+    [SerializeField] float lastDashTime = 0f;
+    private Vector2 lastMovementDirection;
     private bool isDashing = false;
     public TrailRenderer trailRenderer;
     public Animator dashAnimation;
-
     public void CustomUpdate()
     {
-        // Eingaben prüfen und die letzte Bewegungsrichtung speichern
-        Vector2 inputDirection = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
-
-        if (inputDirection != Vector2.zero)
+        if (BoolControler.Instance.isNormal)
         {
-            lastMovementDirection = inputDirection.normalized;
-        }
+            Vector2 inputDirection = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
 
-        // Dash auslösen, wenn die Space-Taste gedrückt und der Cooldown vorbei ist
-        if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Joystick1Button1))
-        {
-            if (lastDashTime >= cooldown)
+            if (inputDirection != Vector2.zero)
             {
-                StartCoroutine(Dash());
+                lastMovementDirection = inputDirection.normalized;
             }
+            if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Joystick1Button1))
+            {
+                if (lastDashTime >= cooldown)
+                {
+                    StartCoroutine(Dash());
+                }
+            }
+            lastDashTime += Time.deltaTime;
         }
-        lastDashTime += Time.deltaTime;
     }
-
     IEnumerator Dash()
     {
         dashAnimation.SetTrigger("Dash");

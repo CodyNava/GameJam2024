@@ -1,38 +1,32 @@
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour, i_Update
-
-
 {
     [Header("Animator")]
     public Animator running;
-    [Header("Movement")] // Geschwindigkeit des Spielers
-    private Rigidbody2D rb;               // Referenz zum Rigidbody2D des Spielers
+    [Header("Movement")]
+    private Rigidbody2D rb;
     private Vector2 movement;
     private bool facingRight = true;
-
     private void OnDisable() { UpdateManager.Instance.UnregisterUpdate(this); }
 
     void Start()
     {
         UpdateManager.Instance.RegisterUpdate(this);
-        rb = GetComponent<Rigidbody2D>(); // Rigidbody2D holen
+        rb = GetComponent<Rigidbody2D>();
     }
 
     public void CustomUpdate()
     {
         OnMove();
-
     }
 
     void FixedUpdate()
     {
-        // Bewegung anwenden
         rb.MovePosition(rb.position + movement * PlayerStats.Instance.movesSpeed * Time.fixedDeltaTime);
     }
     public void OnMove()
     {
-        //moveSpeed
         float horizontalInput = Input.GetAxisRaw("Horizontal");
         float vertiacalInput = Input.GetAxisRaw("Vertical");
 
@@ -53,10 +47,9 @@ public class PlayerMovement : MonoBehaviour, i_Update
 
     private void Flip()
     {
-        // Blickrichtung umdrehen
         facingRight = !facingRight;
         Vector3 scale = transform.localScale;
-        scale.x *= -1; // X-Skala invertieren
+        scale.x *= -1;
         transform.localScale = scale;
     }
 }
