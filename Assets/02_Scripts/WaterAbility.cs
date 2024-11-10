@@ -31,7 +31,7 @@ public class WaterAbility : MonoBehaviour, i_Update
     public void CustomUpdate()
     {
         // use ability on button press
-        if (Input.GetKeyDown(KeyCode.Alpha9) && !useWaterAbility && BoolControler.Instance.isWater)
+        if (Input.GetKeyDown(KeyCode.Space) && !useWaterAbility && BoolControler.Instance.isWater)
         {
             if (lastAbilityUseTime >= cooldown)
             {
