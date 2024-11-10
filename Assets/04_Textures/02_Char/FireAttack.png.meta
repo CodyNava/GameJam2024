@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 920a81d266c87504494812254faea587
+guid: cfa9cd9b4583a654cb7f7e678a6274f4
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -97,13 +97,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: IdleSlimeWalkAnimation_0
+      name: FireAttack_0
       rect:
         serializedVersion: 2
         x: 3
-        y: 65
+        y: 93
         width: 26
-        height: 20
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -112,20 +112,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c53504fc889211c43b88fb5762f2d627
-      internalID: -785829475
+      spriteID: f2af465c9eec74e429bc252625c21fb5
+      internalID: 674569346
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IdleSlimeWalkAnimation_1
+      name: FireAttack_1
       rect:
         serializedVersion: 2
         x: 38
-        y: 65
+        y: 93
         width: 26
-        height: 20
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -134,20 +134,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ff09b45df74b9954eb184bd0e5a1fdfe
-      internalID: -2130558236
+      spriteID: 0b34b64050b1c034099b3d4cd1a3d010
+      internalID: 1031026288
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IdleSlimeWalkAnimation_2
+      name: FireAttack_2
       rect:
         serializedVersion: 2
-        x: 72
-        y: 65
-        width: 27
-        height: 20
+        x: 3
+        y: 63
+        width: 26
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -156,42 +156,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a6212f1ea966101429f4c77b4501a82d
-      internalID: -351733034
+      spriteID: 0c9e8c2a62cc3364fb353d74de586e83
+      internalID: 207435440
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IdleSlimeWalkAnimation_3
-      rect:
-        serializedVersion: 2
-        x: 4
-        y: 35
-        width: 25
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ce3d0491536f61b468f49003a797c54e
-      internalID: 1431755885
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IdleSlimeWalkAnimation_4
+      name: FireAttack_3
       rect:
         serializedVersion: 2
         x: 38
-        y: 35
+        y: 63
         width: 26
-        height: 20
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,20 +178,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e625fc228ef9e7640812f57a5cb9f0ef
-      internalID: -136716181
+      spriteID: 72cc70453e44c414d81ac9a1b6fc9973
+      internalID: 284581722
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IdleSlimeWalkAnimation_5
+      name: FireAttack_4
       rect:
         serializedVersion: 2
         x: 73
-        y: 35
+        y: 63
         width: 26
-        height: 20
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -222,20 +200,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4e8dd0fe005529347b1d4984e4424d75
-      internalID: 2119072601
+      spriteID: e7ba037fd94994c44a30331d39ac3792
+      internalID: 325987020
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IdleSlimeWalkAnimation_6
+      name: FireAttack_5
       rect:
         serializedVersion: 2
-        x: 4
-        y: 5
-        width: 25
-        height: 21
+        x: 108
+        y: 63
+        width: 26
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -244,20 +222,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 80359e016439bcd4b9bcdfada726e548
-      internalID: -986166381
+      spriteID: 1728d548d08a0fb40bd563590c06969f
+      internalID: 500624128
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IdleSlimeWalkAnimation_7
+      name: FireAttack_6
       rect:
         serializedVersion: 2
-        x: 39
-        y: 5
-        width: 25
-        height: 21
+        x: 3
+        y: 33
+        width: 26
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -266,20 +244,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 822622a6a0e302c4bb47e28678e5c4e2
-      internalID: 769590314
+      spriteID: 46c05f907ed7b17439da9c22e71d2700
+      internalID: -711834358
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IdleSlimeWalkAnimation_8
+      name: FireAttack_7
       rect:
         serializedVersion: 2
-        x: 74
-        y: 5
-        width: 25
-        height: 21
+        x: 38
+        y: 33
+        width: 26
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -288,8 +266,140 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9ed70941106495f46b4e6ea0008f6816
-      internalID: 391141706
+      spriteID: 0cf10aba4d7fcda44a2076bb25cf00e8
+      internalID: -1356724110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireAttack_8
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 33
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84ad0651ad85ac640b77ad47e2668392
+      internalID: 138834204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireAttack_9
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 33
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4b5f45266d94b44297ab47f800f05c5
+      internalID: -1169459809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireAttack_10
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 3
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42d6a60ba6929ee4c818acf3d62aa661
+      internalID: -1925000881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireAttack_11
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 3
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62d31ab4823ec2d4b8f46d0cba32b2d7
+      internalID: 1997924842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireAttack_12
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 3
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbdd1e893b31b2d479fbcabef2ad5855
+      internalID: -2065736572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireAttack_13
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 3
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c050109e46496b4488f803e4a51e6f0
+      internalID: 1110095524
       vertices: []
       indices: 
       edges: []
@@ -298,7 +408,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 9e619b1bdd9d9d44fbf1c8440cc6931f
+    spriteID: 79b1b49d599c4c543ab50bfe5e465605
     internalID: 0
     vertices: []
     indices: 
@@ -308,15 +418,20 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      IdleSlimeWalkAnimation_0: -785829475
-      IdleSlimeWalkAnimation_1: -2130558236
-      IdleSlimeWalkAnimation_2: -351733034
-      IdleSlimeWalkAnimation_3: 1431755885
-      IdleSlimeWalkAnimation_4: -136716181
-      IdleSlimeWalkAnimation_5: 2119072601
-      IdleSlimeWalkAnimation_6: -986166381
-      IdleSlimeWalkAnimation_7: 769590314
-      IdleSlimeWalkAnimation_8: 391141706
+      FireAttack_0: 674569346
+      FireAttack_1: 1031026288
+      FireAttack_10: -1925000881
+      FireAttack_11: 1997924842
+      FireAttack_12: -2065736572
+      FireAttack_13: 1110095524
+      FireAttack_2: 207435440
+      FireAttack_3: 284581722
+      FireAttack_4: 325987020
+      FireAttack_5: 500624128
+      FireAttack_6: -711834358
+      FireAttack_7: -1356724110
+      FireAttack_8: 138834204
+      FireAttack_9: -1169459809
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

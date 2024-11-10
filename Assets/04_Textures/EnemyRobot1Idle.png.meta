@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: bea1163ec812bf041a03391fcb1fff68
+guid: b9d0e3fdb91ecf24ea736a6050a8637e
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -69,8 +69,8 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
+    maxTextureSize: 256
+    resizeAlgorithm: 1
     textureFormat: -1
     textureCompression: 2
     compressionQuality: 50
@@ -97,12 +97,56 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: IdleSlimeAnimation_0
+      name: EnemyRobot1Idle_0
       rect:
         serializedVersion: 2
-        x: 4
-        y: 35
-        width: 24
+        x: 3
+        y: 67
+        width: 29
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e43dd0d5d4f55bd45a497054b7f9b2d2
+      internalID: 1338282985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRobot1Idle_1
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 67
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 145d37a3a7654ef49b1baeb046249eed
+      internalID: 170255790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRobot1Idle_2
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 37
+        width: 30
         height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -112,19 +156,107 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 80341cb5a17ec2048b2f6de2feb7bf28
-      internalID: 1778468133
+      spriteID: 65d6c7c8fe546724d9366251e093bbb1
+      internalID: 512085102
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IdleSlimeAnimation_1
+      name: EnemyRobot1Idle_3
       rect:
         serializedVersion: 2
-        x: 39
-        y: 35
-        width: 25
+        x: 37
+        y: 37
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3904f91b0005da647a2d5bc79f6cfe62
+      internalID: -405211067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRobot1Idle_4
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 37
+        width: 29
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae62597a6d22bed448bee0266f396ac3
+      internalID: 698520918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRobot1Idle_5
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 37
+        width: 29
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f196fa18d030beb4c9945238b98965d0
+      internalID: 525058505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRobot1Idle_6
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 7
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e95b1891fa9fcc48ac11804e3375a68
+      internalID: 81305586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRobot1Idle_7
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 7
+        width: 30
         height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -134,19 +266,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 87c04a9ee87732d40abeef62c9e00f67
-      internalID: 1293437114
+      spriteID: 34c3635fbd65f944fb3e53d137110839
+      internalID: 1342791652
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IdleSlimeAnimation_2
+      name: EnemyRobot1Idle_8
       rect:
         serializedVersion: 2
-        x: 4
-        y: 5
-        width: 25
+        x: 72
+        y: 7
+        width: 30
         height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -156,20 +288,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e420752f1ce50cc47b78990b72823634
-      internalID: -2046333717
+      spriteID: 9523a908464b3724cb916a4dca40b291
+      internalID: 204383153
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IdleSlimeAnimation_3
+      name: EnemyRobot1Idle_9
       rect:
         serializedVersion: 2
-        x: 39
-        y: 5
-        width: 25
-        height: 20
+        x: 107
+        y: 7
+        width: 30
+        height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -178,30 +310,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aca2229e6ab375f4db3ba5c1a8265fe5
-      internalID: 1509944095
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IdleSlimeAnimation_4
-      rect:
-        serializedVersion: 2
-        x: 74
-        y: 5
-        width: 24
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b4d27b4ae771abf44b779f8817ab1158
-      internalID: -41125564
+      spriteID: 392c032791369f74eb5ec69cf32e9874
+      internalID: 42257591
       vertices: []
       indices: 
       edges: []
@@ -210,7 +320,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 28656aa6494293643afd3db90b7adb30
+    spriteID: 43230470aac1b5b4d8c84a65f9870b50
     internalID: 0
     vertices: []
     indices: 
@@ -220,11 +330,16 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      IdleSlimeAnimation_0: 1778468133
-      IdleSlimeAnimation_1: 1293437114
-      IdleSlimeAnimation_2: -2046333717
-      IdleSlimeAnimation_3: 1509944095
-      IdleSlimeAnimation_4: -41125564
+      EnemyRobot1Idle_0: 1338282985
+      EnemyRobot1Idle_1: 170255790
+      EnemyRobot1Idle_2: 512085102
+      EnemyRobot1Idle_3: -405211067
+      EnemyRobot1Idle_4: 698520918
+      EnemyRobot1Idle_5: 525058505
+      EnemyRobot1Idle_6: 81305586
+      EnemyRobot1Idle_7: 1342791652
+      EnemyRobot1Idle_8: 204383153
+      EnemyRobot1Idle_9: 42257591
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

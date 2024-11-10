@@ -1,5 +1,5 @@
-using UnityEngine;
 using System.Collections;
+using UnityEngine;
 using UnityEngine.UI;
 
 public class ShapeShifting : MonoBehaviour, i_Update
@@ -12,13 +12,14 @@ public class ShapeShifting : MonoBehaviour, i_Update
     private int currentFormIndex = 0; // Aktuelle Form-Index
     private bool canChangeForm = true; // Cooldown-Kontrolle
     private float cooldownDuration = 5f; // Cooldown in Sekunden
+    public Animator animator;
 
     public void CustomUpdate()
     {
         if (BoolControler.Instance.isNormal) { NormalFormEnabled(); }
         if (BoolControler.Instance.isFire) { FireFormEnabled(); }
         if (BoolControler.Instance.isWater) { WaterFormEnabled(); }
-        if (BoolControler.Instance.isNature) { NatureFormEnabled(); }
+        if (BoolControler.Instance.isStone) { StoneFormEnabled(); }
 
 
         float dpadHorizontal = Input.GetAxis("DPadHorizontal");
@@ -50,7 +51,7 @@ public class ShapeShifting : MonoBehaviour, i_Update
     {
 
     }
-    public void NatureFormEnabled()
+    public void StoneFormEnabled()
     {
 
     }
@@ -77,28 +78,44 @@ public class ShapeShifting : MonoBehaviour, i_Update
             switch (formIndex)
             {
                 case 0:
+                    animator.SetBool("Normal", true);
+                    animator.SetBool("Stone", false);
+                    animator.SetBool("Water", false);
+                    animator.SetBool("Fire", false);
                     BoolControler.Instance.isNormal = true;
                     BoolControler.Instance.isFire = false;
                     BoolControler.Instance.isWater = false;
-                    BoolControler.Instance.isNature = false;
+                    BoolControler.Instance.isStone = false;
                     break;
                 case 1:
+                    animator.SetBool("Normal", false);
+                    animator.SetBool("Stone", false);
+                    animator.SetBool("Water", false);
+                    animator.SetBool("Fire", true);
                     BoolControler.Instance.isNormal = false;
                     BoolControler.Instance.isFire = true;
                     BoolControler.Instance.isWater = false;
-                    BoolControler.Instance.isNature = false;
+                    BoolControler.Instance.isStone = false;
                     break;
                 case 2:
+                    animator.SetBool("Normal", false);
+                    animator.SetBool("Stone", false);
+                    animator.SetBool("Water", true);
+                    animator.SetBool("Fire", false);
                     BoolControler.Instance.isNormal = false;
                     BoolControler.Instance.isFire = false;
                     BoolControler.Instance.isWater = true;
-                    BoolControler.Instance.isNature = false;
+                    BoolControler.Instance.isStone = false;
                     break;
                 case 3:
+                    animator.SetBool("Normal", false);
+                    animator.SetBool("Stone", true);
+                    animator.SetBool("Water", false);
+                    animator.SetBool("Fire", false);
                     BoolControler.Instance.isNormal = false;
                     BoolControler.Instance.isFire = false;
                     BoolControler.Instance.isWater = false;
-                    BoolControler.Instance.isNature = true;
+                    BoolControler.Instance.isStone = true;
                     break;
             }
         }

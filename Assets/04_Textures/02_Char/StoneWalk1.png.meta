@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: bea1163ec812bf041a03391fcb1fff68
+guid: cd06a9e2be8b135488716dd60caa81dd
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -97,13 +97,57 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: IdleSlimeAnimation_0
+      name: StoneWalk1_0
       rect:
         serializedVersion: 2
-        x: 4
-        y: 35
+        x: 2
+        y: 64
+        width: 28
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d46cdfc5d4bec7642b0562a5dea0797d
+      internalID: -1286136381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneWalk1_1
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 64
+        width: 29
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d92c3b7d4703df7498e56b80c61676cb
+      internalID: 201879116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneWalk1_2
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 34
         width: 24
-        height: 21
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -112,20 +156,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 80341cb5a17ec2048b2f6de2feb7bf28
-      internalID: 1778468133
+      spriteID: f2528b4e020d80947b660c36752e6d56
+      internalID: 682627527
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IdleSlimeAnimation_1
+      name: StoneWalk1_3
       rect:
         serializedVersion: 2
-        x: 39
-        y: 35
-        width: 25
-        height: 21
+        x: 37
+        y: 34
+        width: 26
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -134,20 +178,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 87c04a9ee87732d40abeef62c9e00f67
-      internalID: 1293437114
+      spriteID: 54f7f113c972b14488a879ef3760753f
+      internalID: 974543310
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IdleSlimeAnimation_2
+      name: StoneWalk1_4
       rect:
         serializedVersion: 2
-        x: 4
-        y: 5
-        width: 25
-        height: 21
+        x: 72
+        y: 34
+        width: 27
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -156,20 +200,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e420752f1ce50cc47b78990b72823634
-      internalID: -2046333717
+      spriteID: c65deba654bf93d4c94299d0075a0049
+      internalID: -1258978219
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IdleSlimeAnimation_3
+      name: StoneWalk1_5
       rect:
         serializedVersion: 2
-        x: 39
-        y: 5
-        width: 25
-        height: 20
+        x: 107
+        y: 34
+        width: 27
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -178,20 +222,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aca2229e6ab375f4db3ba5c1a8265fe5
-      internalID: 1509944095
+      spriteID: 3e43d6b8b43991249ab1e5c6d2c608fb
+      internalID: -1510680484
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IdleSlimeAnimation_4
+      name: StoneWalk1_6
       rect:
         serializedVersion: 2
-        x: 74
-        y: 5
+        x: 2
+        y: 4
         width: 24
-        height: 20
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,8 +244,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b4d27b4ae771abf44b779f8817ab1158
-      internalID: -41125564
+      spriteID: 4b3ef9fe5eac09b4ba69216f16019b9f
+      internalID: 133765583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneWalk1_7
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 4
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbb06439c5ffc5949b6066d31d6e3c82
+      internalID: -385298551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneWalk1_8
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 4
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 097940a78446ba340b35ae15a33aa534
+      internalID: 845560274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneWalk1_9
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 4
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14a66b87221af9049b846b247cf9b744
+      internalID: -159164779
       vertices: []
       indices: 
       edges: []
@@ -210,7 +320,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 28656aa6494293643afd3db90b7adb30
+    spriteID: 8dd02455ef554454ea0c479555dd17c9
     internalID: 0
     vertices: []
     indices: 
@@ -220,11 +330,16 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      IdleSlimeAnimation_0: 1778468133
-      IdleSlimeAnimation_1: 1293437114
-      IdleSlimeAnimation_2: -2046333717
-      IdleSlimeAnimation_3: 1509944095
-      IdleSlimeAnimation_4: -41125564
+      StoneWalk1_0: -1286136381
+      StoneWalk1_1: 201879116
+      StoneWalk1_2: 682627527
+      StoneWalk1_3: 974543310
+      StoneWalk1_4: -1258978219
+      StoneWalk1_5: -1510680484
+      StoneWalk1_6: 133765583
+      StoneWalk1_7: -385298551
+      StoneWalk1_8: 845560274
+      StoneWalk1_9: -159164779
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

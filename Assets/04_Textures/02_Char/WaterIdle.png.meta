@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 920a81d266c87504494812254faea587
+guid: fa33a147246154a41a1d3ba8dd1a3764
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -37,8 +37,8 @@ TextureImporter:
     filterMode: 0
     aniso: 1
     mipBias: 0
-    wrapU: 1
-    wrapV: 1
+    wrapU: 0
+    wrapV: 0
     wrapW: 0
   nPOTScale: 0
   lightmap: 0
@@ -97,13 +97,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: IdleSlimeWalkAnimation_0
+      name: WaterIdle_0
       rect:
         serializedVersion: 2
-        x: 3
+        x: 0
         y: 65
-        width: 26
-        height: 20
+        width: 32
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -112,20 +112,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c53504fc889211c43b88fb5762f2d627
-      internalID: -785829475
+      spriteID: 89147268c75ccda4e95bc2e69f9217b5
+      internalID: 1667077275
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IdleSlimeWalkAnimation_1
+      name: WaterIdle_1
       rect:
         serializedVersion: 2
-        x: 38
+        x: 33
         y: 65
-        width: 26
-        height: 20
+        width: 34
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -134,20 +134,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ff09b45df74b9954eb184bd0e5a1fdfe
-      internalID: -2130558236
+      spriteID: d8f7debf481865545a87884e0f8cb222
+      internalID: 1616077964
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IdleSlimeWalkAnimation_2
+      name: WaterIdle_2
       rect:
         serializedVersion: 2
-        x: 72
+        x: 69
         y: 65
-        width: 27
-        height: 20
+        width: 33
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -156,20 +156,42 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a6212f1ea966101429f4c77b4501a82d
-      internalID: -351733034
+      spriteID: 04c4780e50a976648bf94a693f14606f
+      internalID: -1776544746
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IdleSlimeWalkAnimation_3
+      name: WaterIdle_3
       rect:
         serializedVersion: 2
-        x: 4
+        x: 104
+        y: 65
+        width: 36
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff33ba728af4f624bb23c3fc07732afa
+      internalID: 1394571940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterIdle_4
+      rect:
+        serializedVersion: 2
+        x: 0
         y: 35
-        width: 25
-        height: 20
+        width: 31
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -178,20 +200,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ce3d0491536f61b468f49003a797c54e
-      internalID: 1431755885
+      spriteID: 0496c481111b72b43afd581fca7aacc3
+      internalID: 1781632650
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IdleSlimeWalkAnimation_4
+      name: WaterIdle_5
       rect:
         serializedVersion: 2
-        x: 38
+        x: 35
         y: 35
-        width: 26
-        height: 20
+        width: 31
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,20 +222,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e625fc228ef9e7640812f57a5cb9f0ef
-      internalID: -136716181
+      spriteID: 143c6fd067cc3ac4b87919160fe06eb0
+      internalID: -1633702892
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IdleSlimeWalkAnimation_5
+      name: WaterIdle_6
       rect:
         serializedVersion: 2
-        x: 73
+        x: 70
         y: 35
-        width: 26
-        height: 20
+        width: 32
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -222,20 +244,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4e8dd0fe005529347b1d4984e4424d75
-      internalID: 2119072601
+      spriteID: 742a0e256779b734488e130b3006eefc
+      internalID: 952147626
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IdleSlimeWalkAnimation_6
+      name: WaterIdle_7
       rect:
         serializedVersion: 2
-        x: 4
-        y: 5
-        width: 25
-        height: 21
+        x: 105
+        y: 35
+        width: 33
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -244,20 +266,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 80359e016439bcd4b9bcdfada726e548
-      internalID: -986166381
+      spriteID: eaccb1cbe9fdcb64b8d7c89f9e39c7f5
+      internalID: -1040427602
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IdleSlimeWalkAnimation_7
+      name: WaterIdle_8
       rect:
         serializedVersion: 2
-        x: 39
+        x: 0
         y: 5
-        width: 25
-        height: 21
+        width: 32
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -266,20 +288,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 822622a6a0e302c4bb47e28678e5c4e2
-      internalID: 769590314
+      spriteID: a9d60e6607815f24cad5b20d594df90c
+      internalID: -1062429941
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IdleSlimeWalkAnimation_8
+      name: WaterIdle_9
       rect:
         serializedVersion: 2
-        x: 74
+        x: 34
         y: 5
-        width: 25
-        height: 21
+        width: 32
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -288,8 +310,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9ed70941106495f46b4e6ea0008f6816
-      internalID: 391141706
+      spriteID: 61aba10f43652cc4cbacef538eb3d5a4
+      internalID: -1257166354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterIdle_10
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 5
+        width: 31
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb06cbc5f7184ae4897f6690f4858f32
+      internalID: 1863449207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterIdle_11
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 5
+        width: 31
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eab5338e64bf5245b0bd4726edeab3d
+      internalID: 111045441
       vertices: []
       indices: 
       edges: []
@@ -298,7 +364,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 9e619b1bdd9d9d44fbf1c8440cc6931f
+    spriteID: 5601936c659360b4ea60d73975131ef1
     internalID: 0
     vertices: []
     indices: 
@@ -308,15 +374,18 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      IdleSlimeWalkAnimation_0: -785829475
-      IdleSlimeWalkAnimation_1: -2130558236
-      IdleSlimeWalkAnimation_2: -351733034
-      IdleSlimeWalkAnimation_3: 1431755885
-      IdleSlimeWalkAnimation_4: -136716181
-      IdleSlimeWalkAnimation_5: 2119072601
-      IdleSlimeWalkAnimation_6: -986166381
-      IdleSlimeWalkAnimation_7: 769590314
-      IdleSlimeWalkAnimation_8: 391141706
+      WaterIdle_0: 1667077275
+      WaterIdle_1: 1616077964
+      WaterIdle_10: 1863449207
+      WaterIdle_11: 111045441
+      WaterIdle_2: -1776544746
+      WaterIdle_3: 1394571940
+      WaterIdle_4: 1781632650
+      WaterIdle_5: -1633702892
+      WaterIdle_6: 952147626
+      WaterIdle_7: -1040427602
+      WaterIdle_8: -1062429941
+      WaterIdle_9: -1257166354
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -843,7 +843,7 @@ MonoBehaviour:
   isNormal: 0
   isFire: 0
   isWater: 0
-  isNature: 0
+  isStone: 0
   isDead: 0
   isDashing: 0
   useWaterAbility: 0
@@ -956,11 +956,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Enemy
-      objectReference: {fileID: 0}
-    - target: {fileID: 2150907290467153894, guid: 439e03cda44ffad4bbe32ed9b9a68950,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4615063663823003647, guid: 439e03cda44ffad4bbe32ed9b9a68950,
         type: 3}

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 5f07c646da31ff14d883b0f03044a591
+guid: e954caf07dada9441bf98c62bbd183e2
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -39,7 +39,7 @@ TextureImporter:
     mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: 0
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -97,431 +97,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: IdleSlimeDashAnimation_0
+      name: StoneAttack_0
       rect:
         serializedVersion: 2
-        x: 5
-        y: 125
-        width: 25
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1b7e11f328a26c542a612fc97132f4d9
-      internalID: -1157794038
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IdleSlimeDashAnimation_1
-      rect:
-        serializedVersion: 2
-        x: 39
-        y: 125
-        width: 25
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 32a56a1a2c22b1e40a62e0d5c196f9e2
-      internalID: -909667343
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IdleSlimeDashAnimation_2
-      rect:
-        serializedVersion: 2
-        x: 74
-        y: 125
-        width: 25
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6edfc4b3d2746a94dbb23ca83f434552
-      internalID: 601520161
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IdleSlimeDashAnimation_3
-      rect:
-        serializedVersion: 2
-        x: 109
-        y: 125
-        width: 25
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b04a6ce5f2f4206489f0ce851ec8e4fa
-      internalID: -534737351
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IdleSlimeDashAnimation_4
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 125
-        width: 25
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 25ccaa0e2af255447a9be01bf59bfcaa
-      internalID: -237140772
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IdleSlimeDashAnimation_5
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 95
-        width: 15
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7572868309805634db469340b6d9fb65
-      internalID: -343411855
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IdleSlimeDashAnimation_6
-      rect:
-        serializedVersion: 2
-        x: 35
-        y: 95
-        width: 20
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9a6749ac238707c409d3c7ddc96d0567
-      internalID: 824888307
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IdleSlimeDashAnimation_7
-      rect:
-        serializedVersion: 2
-        x: 70
-        y: 95
-        width: 20
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ff1de70c91e7d144a941f063e9433375
-      internalID: 253241862
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IdleSlimeDashAnimation_8
-      rect:
-        serializedVersion: 2
-        x: 105
-        y: 95
-        width: 21
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1d0a2df5fbadae44195732f157cd9a24
-      internalID: 680857946
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IdleSlimeDashAnimation_9
-      rect:
-        serializedVersion: 2
-        x: 141
-        y: 95
-        width: 23
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a54a9abaafd0782439522d34ee022353
-      internalID: -1345205903
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IdleSlimeDashAnimation_10
-      rect:
-        serializedVersion: 2
-        x: 178
-        y: 95
-        width: 29
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 54653a77aeb8fc94c9aaf3f1127d8a4c
-      internalID: 713892854
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IdleSlimeDashAnimation_11
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 65
-        width: 25
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f4f980d99206cb8428dbb2025f49637f
-      internalID: -1696010667
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IdleSlimeDashAnimation_12
-      rect:
-        serializedVersion: 2
-        x: 35
-        y: 65
-        width: 15
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b410af5dc2a053e48bf29ffbb379b60e
-      internalID: 677849992
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IdleSlimeDashAnimation_13
-      rect:
-        serializedVersion: 2
-        x: 70
-        y: 65
-        width: 15
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 50e3e4e229a310a479c3aef6c0bec40f
-      internalID: -1375193172
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IdleSlimeDashAnimation_14
-      rect:
-        serializedVersion: 2
-        x: 105
-        y: 65
-        width: 12
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 011fa94396dee2446a3e088fdbacd350
-      internalID: -589221286
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IdleSlimeDashAnimation_15
-      rect:
-        serializedVersion: 2
-        x: 140
-        y: 65
-        width: 12
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ff1c2cad19e26894085ae55061b72de4
-      internalID: -1827712092
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IdleSlimeDashAnimation_16
-      rect:
-        serializedVersion: 2
-        x: 175
-        y: 65
-        width: 15
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fd9f2f58c4a788e428ea8af52d624dba
-      internalID: 641263759
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IdleSlimeDashAnimation_17
-      rect:
-        serializedVersion: 2
-        x: 5
-        y: 35
-        width: 25
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 127c10fae2f14b3409b50dca9b9339a1
-      internalID: 533577458
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IdleSlimeDashAnimation_18
-      rect:
-        serializedVersion: 2
-        x: 37
-        y: 35
-        width: 27
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 02316608d63701a42aa1776d7dcf69a6
-      internalID: 1374781080
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IdleSlimeDashAnimation_19
-      rect:
-        serializedVersion: 2
-        x: 71
-        y: 35
+        x: 29
+        y: 151
         width: 31
-        height: 17
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -530,20 +112,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d8185104415981f458a3bc413c9adf79
-      internalID: -352195793
+      spriteID: 9dcfd7bc5bf960b4cac5cd8404156b88
+      internalID: 477056876
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IdleSlimeDashAnimation_20
+      name: StoneAttack_1
       rect:
         serializedVersion: 2
-        x: 105
-        y: 35
-        width: 32
-        height: 17
+        x: 89
+        y: 151
+        width: 31
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -552,20 +134,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0a6449a9a2a778045968a54f48ba25ba
-      internalID: 142931759
+      spriteID: cb2e7d526dfa9ba4da34ea1e900a376a
+      internalID: 1038557114
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IdleSlimeDashAnimation_21
+      name: StoneAttack_2
       rect:
         serializedVersion: 2
-        x: 140
-        y: 35
-        width: 32
-        height: 17
+        x: 35
+        y: 121
+        width: 23
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -574,20 +156,64 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1896674075aa0bd49a87fa8a798d2602
-      internalID: -295310872
+      spriteID: e8f2fda71eb9a5f4f977195cf0ca8686
+      internalID: -879987605
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IdleSlimeDashAnimation_22
+      name: StoneAttack_3
       rect:
         serializedVersion: 2
-        x: 175
-        y: 35
+        x: 95
+        y: 121
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cea64aaf6ff9954409a9e1c6716b26c8
+      internalID: -1240798467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneAttack_4
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 121
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08cc8eb2224631d4c855a9aad6dbcfe4
+      internalID: 1850735443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneAttack_5
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 121
         width: 29
-        height: 19
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -596,20 +222,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d18a2471af602c04cbae6fecdc82d0ab
-      internalID: 265458962
+      spriteID: 83b3e562e8f9e9f4e8bb3a03398b0d89
+      internalID: 1889121795
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IdleSlimeDashAnimation_23
+      name: StoneAttack_6
       rect:
         serializedVersion: 2
-        x: 4
-        y: 5
-        width: 25
-        height: 21
+        x: 270
+        y: 121
+        width: 30
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -618,20 +244,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eff8a631da3920c4c954228c882688e2
-      internalID: 939721663
+      spriteID: 5633205a8714b8b4ab2cc84a0fd1c50d
+      internalID: 565363779
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IdleSlimeDashAnimation_24
+      name: StoneAttack_7
       rect:
         serializedVersion: 2
-        x: 39
-        y: 5
-        width: 25
-        height: 21
+        x: 330
+        y: 121
+        width: 30
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -640,20 +266,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a472f655c005018479910e72cc456ad4
-      internalID: 1295875361
+      spriteID: f92b943c4021d954ca018b61720ed15b
+      internalID: -251779716
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IdleSlimeDashAnimation_25
+      name: StoneAttack_8
       rect:
         serializedVersion: 2
-        x: 74
-        y: 5
-        width: 25
-        height: 20
+        x: 390
+        y: 121
+        width: 30
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -662,20 +288,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 453d28b7ecf22304585ccf468db393ef
-      internalID: 1694922115
+      spriteID: 88c70b7338b005a4ca0329120238e125
+      internalID: -773114169
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IdleSlimeDashAnimation_26
+      name: StoneAttack_9
       rect:
         serializedVersion: 2
-        x: 110
-        y: 5
-        width: 25
-        height: 19
+        x: 35
+        y: 91
+        width: 24
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -684,20 +310,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9adf1b5ead4c41042b47380db4f9d6ba
-      internalID: 1772898614
+      spriteID: 78d2c244026406e43bd9c6cddc552529
+      internalID: 405653585
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IdleSlimeDashAnimation_27
+      name: StoneAttack_10
       rect:
         serializedVersion: 2
-        x: 145
-        y: 5
-        width: 25
-        height: 19
+        x: 95
+        y: 91
+        width: 24
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -706,20 +332,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2049527d2f21b6c48b9750ef67fd216c
-      internalID: 2117395910
+      spriteID: 786496447bbc2c145b93d08395fc51fa
+      internalID: 254826092
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IdleSlimeDashAnimation_28
+      name: StoneAttack_11
       rect:
         serializedVersion: 2
-        x: 180
-        y: 5
-        width: 25
-        height: 19
+        x: 155
+        y: 91
+        width: 24
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -728,8 +354,558 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 315899453efd0f64b8d58e05afbc1f66
-      internalID: 662417849
+      spriteID: 1e2bea50261abc44289755dd76342c24
+      internalID: 1883484842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneAttack_12
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 91
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97888b569c1607749a0dbeb0d45d9a91
+      internalID: -707775972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneAttack_13
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 91
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08e9d56270cd0104081bff8c3b99a750
+      internalID: -845104596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneAttack_14
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 91
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d10ff0402a62ce44a4465bb0248ea3f
+      internalID: 855057697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneAttack_15
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 91
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07febbb340a02bc439e620d776a6772d
+      internalID: -1050878804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneAttack_16
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 61
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc9e02a05367644439d98797efef15f6
+      internalID: -1935973065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneAttack_17
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 61
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 479a92156f9422b4d8d0de6e629bca73
+      internalID: -1244218979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneAttack_18
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 61
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5bf92a0f222f6a47a42c6ca74d82bcd
+      internalID: -351122388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneAttack_19
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 61
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d293a5af3d306fb4fab195750233ff3e
+      internalID: -132889223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneAttack_20
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 61
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb5056403ec58e54499eb22f7adde4a5
+      internalID: -2055308948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneAttack_21
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 61
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 413ffed2ad81a544d9d15876c81d4707
+      internalID: -313427181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneAttack_22
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 61
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea025e83936fe0345a7ab7b5502389ac
+      internalID: 810022219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneAttack_23
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 31
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12637366464dc17409145163895a1187
+      internalID: -1159507079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneAttack_24
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 31
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96fff0414487c6e458ba4abdf30c2c45
+      internalID: 1105732167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneAttack_25
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 31
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13a43c5b48f212e41b91af1001389b73
+      internalID: 1415845908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneAttack_26
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 31
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b459385956ef78649b5dde604b05f1bb
+      internalID: 1624183275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneAttack_27
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 31
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f471e8d77b80e04d9df59ed6eb9f14a
+      internalID: -376393473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneAttack_28
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 31
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f474925fd75974c47a14b14656c3c778
+      internalID: 514896040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneAttack_29
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 31
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20dba3c5d2497f249b13082c0a8bc89c
+      internalID: 1629989866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneAttack_30
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 1
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af92ac62efd62824c85c6fe2dbd51f44
+      internalID: -2069127507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneAttack_31
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 1
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d76a8d6705a2d394b92827d6620642b9
+      internalID: -1637450704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneAttack_32
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 1
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae4ac6e14d7e3d547bef9f9907537498
+      internalID: -13152635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneAttack_33
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 1
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a479191412950294a92823f78803440a
+      internalID: -329850383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneAttack_34
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 1
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44fec88b763b9bb4296dad506849b86e
+      internalID: -816405081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneAttack_35
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df473cb6881ff504381d1a623d233e84
+      internalID: 1832469461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneAttack_36
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 1
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fd9148ab56b40448aa7e7d1ab730d6e
+      internalID: -413182363
       vertices: []
       indices: 
       edges: []
@@ -738,7 +914,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: b74523bc222652a4283ca99b2bd7fed5
+    spriteID: 1fc02d4fb4d639a42a760a01acc60128
     internalID: 0
     vertices: []
     indices: 
@@ -748,35 +924,43 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      IdleSlimeDashAnimation_0: -1157794038
-      IdleSlimeDashAnimation_1: -909667343
-      IdleSlimeDashAnimation_10: 713892854
-      IdleSlimeDashAnimation_11: -1696010667
-      IdleSlimeDashAnimation_12: 677849992
-      IdleSlimeDashAnimation_13: -1375193172
-      IdleSlimeDashAnimation_14: -589221286
-      IdleSlimeDashAnimation_15: -1827712092
-      IdleSlimeDashAnimation_16: 641263759
-      IdleSlimeDashAnimation_17: 533577458
-      IdleSlimeDashAnimation_18: 1374781080
-      IdleSlimeDashAnimation_19: -352195793
-      IdleSlimeDashAnimation_2: 601520161
-      IdleSlimeDashAnimation_20: 142931759
-      IdleSlimeDashAnimation_21: -295310872
-      IdleSlimeDashAnimation_22: 265458962
-      IdleSlimeDashAnimation_23: 939721663
-      IdleSlimeDashAnimation_24: 1295875361
-      IdleSlimeDashAnimation_25: 1694922115
-      IdleSlimeDashAnimation_26: 1772898614
-      IdleSlimeDashAnimation_27: 2117395910
-      IdleSlimeDashAnimation_28: 662417849
-      IdleSlimeDashAnimation_3: -534737351
-      IdleSlimeDashAnimation_4: -237140772
-      IdleSlimeDashAnimation_5: -343411855
-      IdleSlimeDashAnimation_6: 824888307
-      IdleSlimeDashAnimation_7: 253241862
-      IdleSlimeDashAnimation_8: 680857946
-      IdleSlimeDashAnimation_9: -1345205903
+      StoneAttack_0: 477056876
+      StoneAttack_1: 1038557114
+      StoneAttack_10: 254826092
+      StoneAttack_11: 1883484842
+      StoneAttack_12: -707775972
+      StoneAttack_13: -845104596
+      StoneAttack_14: 855057697
+      StoneAttack_15: -1050878804
+      StoneAttack_16: -1935973065
+      StoneAttack_17: -1244218979
+      StoneAttack_18: -351122388
+      StoneAttack_19: -132889223
+      StoneAttack_2: -879987605
+      StoneAttack_20: -2055308948
+      StoneAttack_21: -313427181
+      StoneAttack_22: 810022219
+      StoneAttack_23: -1159507079
+      StoneAttack_24: 1105732167
+      StoneAttack_25: 1415845908
+      StoneAttack_26: 1624183275
+      StoneAttack_27: -376393473
+      StoneAttack_28: 514896040
+      StoneAttack_29: 1629989866
+      StoneAttack_3: -1240798467
+      StoneAttack_30: -2069127507
+      StoneAttack_31: -1637450704
+      StoneAttack_32: -13152635
+      StoneAttack_33: -329850383
+      StoneAttack_34: -816405081
+      StoneAttack_35: 1832469461
+      StoneAttack_36: -413182363
+      StoneAttack_4: 1850735443
+      StoneAttack_5: 1889121795
+      StoneAttack_6: 565363779
+      StoneAttack_7: -251779716
+      StoneAttack_8: -773114169
+      StoneAttack_9: 405653585
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 920a81d266c87504494812254faea587
+guid: 8a844b33323bc4a4ca50c52f1057d42d
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -97,57 +97,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: IdleSlimeWalkAnimation_0
+      name: FireMove_0
       rect:
         serializedVersion: 2
         x: 3
-        y: 65
-        width: 26
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c53504fc889211c43b88fb5762f2d627
-      internalID: -785829475
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IdleSlimeWalkAnimation_1
-      rect:
-        serializedVersion: 2
-        x: 38
-        y: 65
-        width: 26
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ff09b45df74b9954eb184bd0e5a1fdfe
-      internalID: -2130558236
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IdleSlimeWalkAnimation_2
-      rect:
-        serializedVersion: 2
-        x: 72
-        y: 65
+        y: 93
         width: 27
-        height: 20
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -156,20 +112,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a6212f1ea966101429f4c77b4501a82d
-      internalID: -351733034
+      spriteID: 4d41966862a38c54e8090d7049f67ab4
+      internalID: -1074939408
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IdleSlimeWalkAnimation_3
+      name: FireMove_1
       rect:
         serializedVersion: 2
-        x: 4
-        y: 35
-        width: 25
-        height: 20
+        x: 3
+        y: 63
+        width: 27
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -178,20 +134,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ce3d0491536f61b468f49003a797c54e
-      internalID: 1431755885
+      spriteID: f08a82befe8d3b748b3a89be7f298bf9
+      internalID: 1736001219
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IdleSlimeWalkAnimation_4
+      name: FireMove_2
       rect:
         serializedVersion: 2
         x: 38
-        y: 35
-        width: 26
-        height: 20
+        y: 63
+        width: 27
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,20 +156,152 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e625fc228ef9e7640812f57a5cb9f0ef
-      internalID: -136716181
+      spriteID: f661281630a33dd43921a9397c10bbf6
+      internalID: -396318768
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IdleSlimeWalkAnimation_5
+      name: FireMove_3
       rect:
         serializedVersion: 2
         x: 73
-        y: 35
+        y: 63
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 611dbd37be319e44a85df94c0c460588
+      internalID: 255908991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireMove_4
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 63
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d84c77db3c73a14f9e52ac7ed1bb14b
+      internalID: 658686691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireMove_5
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 33
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c633b61be0ad47408b57c28f9162159
+      internalID: 1710611560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireMove_6
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 33
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3ddd4246555b3c49ae6a968e98a956b
+      internalID: 832401377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireMove_7
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 33
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff777bd1193f6a24f824be033182a425
+      internalID: 535444706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireMove_8
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 33
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 413bc19a4bfc0794d9bf477ab85ef617
+      internalID: -926057854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireMove_9
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 3
         width: 26
-        height: 20
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -222,20 +310,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4e8dd0fe005529347b1d4984e4424d75
-      internalID: 2119072601
+      spriteID: 1d54d0f98b3ac6a43b090d94f107e868
+      internalID: 176121909
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IdleSlimeWalkAnimation_6
+      name: FireMove_10
       rect:
         serializedVersion: 2
-        x: 4
-        y: 5
-        width: 25
-        height: 21
+        x: 38
+        y: 3
+        width: 26
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -244,20 +332,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 80359e016439bcd4b9bcdfada726e548
-      internalID: -986166381
+      spriteID: d2321fb5f89540f4cbc6c0858072d7b7
+      internalID: -583774846
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IdleSlimeWalkAnimation_7
+      name: FireMove_11
       rect:
         serializedVersion: 2
-        x: 39
-        y: 5
-        width: 25
-        height: 21
+        x: 73
+        y: 3
+        width: 26
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -266,20 +354,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 822622a6a0e302c4bb47e28678e5c4e2
-      internalID: 769590314
+      spriteID: cbce270d23d8e674f924df0f45802e20
+      internalID: -1430320591
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IdleSlimeWalkAnimation_8
+      name: FireMove_12
       rect:
         serializedVersion: 2
-        x: 74
-        y: 5
-        width: 25
-        height: 21
+        x: 108
+        y: 3
+        width: 26
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -288,8 +376,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9ed70941106495f46b4e6ea0008f6816
-      internalID: 391141706
+      spriteID: ff9ff8e1cc7e57644ace0076e1bbb587
+      internalID: -851122635
       vertices: []
       indices: 
       edges: []
@@ -298,7 +386,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 9e619b1bdd9d9d44fbf1c8440cc6931f
+    spriteID: 01951070bc908a449888d4d0c5fb4e5b
     internalID: 0
     vertices: []
     indices: 
@@ -308,15 +396,19 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      IdleSlimeWalkAnimation_0: -785829475
-      IdleSlimeWalkAnimation_1: -2130558236
-      IdleSlimeWalkAnimation_2: -351733034
-      IdleSlimeWalkAnimation_3: 1431755885
-      IdleSlimeWalkAnimation_4: -136716181
-      IdleSlimeWalkAnimation_5: 2119072601
-      IdleSlimeWalkAnimation_6: -986166381
-      IdleSlimeWalkAnimation_7: 769590314
-      IdleSlimeWalkAnimation_8: 391141706
+      FireMove_0: -1074939408
+      FireMove_1: 1736001219
+      FireMove_10: -583774846
+      FireMove_11: -1430320591
+      FireMove_12: -851122635
+      FireMove_2: -396318768
+      FireMove_3: 255908991
+      FireMove_4: 658686691
+      FireMove_5: 1710611560
+      FireMove_6: 832401377
+      FireMove_7: 535444706
+      FireMove_8: -926057854
+      FireMove_9: 176121909
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

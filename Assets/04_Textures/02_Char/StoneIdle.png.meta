@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 5f07c646da31ff14d883b0f03044a591
+guid: 42c2ccb5b36e55a44b0e8dd2066dfe09
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -97,13 +97,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: IdleSlimeDashAnimation_0
+      name: StoneIdle_0
       rect:
         serializedVersion: 2
-        x: 5
-        y: 125
-        width: 25
-        height: 19
+        x: 2
+        y: 154
+        width: 24
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -112,20 +112,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1b7e11f328a26c542a612fc97132f4d9
-      internalID: -1157794038
+      spriteID: f96a8cbe1dda291488888f26920b9685
+      internalID: 2034535555
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IdleSlimeDashAnimation_1
+      name: StoneIdle_1
       rect:
         serializedVersion: 2
-        x: 39
-        y: 125
-        width: 25
-        height: 20
+        x: 2
+        y: 124
+        width: 24
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -134,372 +134,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 32a56a1a2c22b1e40a62e0d5c196f9e2
-      internalID: -909667343
+      spriteID: d83d69b2ed6b1cd4aaac1ae91e4178f5
+      internalID: 1963576524
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IdleSlimeDashAnimation_2
-      rect:
-        serializedVersion: 2
-        x: 74
-        y: 125
-        width: 25
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6edfc4b3d2746a94dbb23ca83f434552
-      internalID: 601520161
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IdleSlimeDashAnimation_3
-      rect:
-        serializedVersion: 2
-        x: 109
-        y: 125
-        width: 25
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b04a6ce5f2f4206489f0ce851ec8e4fa
-      internalID: -534737351
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IdleSlimeDashAnimation_4
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 125
-        width: 25
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 25ccaa0e2af255447a9be01bf59bfcaa
-      internalID: -237140772
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IdleSlimeDashAnimation_5
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 95
-        width: 15
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7572868309805634db469340b6d9fb65
-      internalID: -343411855
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IdleSlimeDashAnimation_6
-      rect:
-        serializedVersion: 2
-        x: 35
-        y: 95
-        width: 20
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9a6749ac238707c409d3c7ddc96d0567
-      internalID: 824888307
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IdleSlimeDashAnimation_7
-      rect:
-        serializedVersion: 2
-        x: 70
-        y: 95
-        width: 20
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ff1de70c91e7d144a941f063e9433375
-      internalID: 253241862
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IdleSlimeDashAnimation_8
-      rect:
-        serializedVersion: 2
-        x: 105
-        y: 95
-        width: 21
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1d0a2df5fbadae44195732f157cd9a24
-      internalID: 680857946
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IdleSlimeDashAnimation_9
-      rect:
-        serializedVersion: 2
-        x: 141
-        y: 95
-        width: 23
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a54a9abaafd0782439522d34ee022353
-      internalID: -1345205903
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IdleSlimeDashAnimation_10
-      rect:
-        serializedVersion: 2
-        x: 178
-        y: 95
-        width: 29
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 54653a77aeb8fc94c9aaf3f1127d8a4c
-      internalID: 713892854
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IdleSlimeDashAnimation_11
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 65
-        width: 25
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f4f980d99206cb8428dbb2025f49637f
-      internalID: -1696010667
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IdleSlimeDashAnimation_12
-      rect:
-        serializedVersion: 2
-        x: 35
-        y: 65
-        width: 15
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b410af5dc2a053e48bf29ffbb379b60e
-      internalID: 677849992
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IdleSlimeDashAnimation_13
-      rect:
-        serializedVersion: 2
-        x: 70
-        y: 65
-        width: 15
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 50e3e4e229a310a479c3aef6c0bec40f
-      internalID: -1375193172
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IdleSlimeDashAnimation_14
-      rect:
-        serializedVersion: 2
-        x: 105
-        y: 65
-        width: 12
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 011fa94396dee2446a3e088fdbacd350
-      internalID: -589221286
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IdleSlimeDashAnimation_15
-      rect:
-        serializedVersion: 2
-        x: 140
-        y: 65
-        width: 12
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ff1c2cad19e26894085ae55061b72de4
-      internalID: -1827712092
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IdleSlimeDashAnimation_16
-      rect:
-        serializedVersion: 2
-        x: 175
-        y: 65
-        width: 15
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fd9f2f58c4a788e428ea8af52d624dba
-      internalID: 641263759
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IdleSlimeDashAnimation_17
-      rect:
-        serializedVersion: 2
-        x: 5
-        y: 35
-        width: 25
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 127c10fae2f14b3409b50dca9b9339a1
-      internalID: 533577458
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IdleSlimeDashAnimation_18
+      name: StoneIdle_2
       rect:
         serializedVersion: 2
         x: 37
-        y: 35
-        width: 27
-        height: 17
+        y: 124
+        width: 24
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -508,20 +156,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 02316608d63701a42aa1776d7dcf69a6
-      internalID: 1374781080
+      spriteID: 3e571060cc4a25f44973c5b8bef2d6c8
+      internalID: -803711244
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IdleSlimeDashAnimation_19
+      name: StoneIdle_3
       rect:
         serializedVersion: 2
-        x: 71
-        y: 35
-        width: 31
-        height: 17
+        x: 72
+        y: 124
+        width: 24
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -530,20 +178,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d8185104415981f458a3bc413c9adf79
-      internalID: -352195793
+      spriteID: bf7e049d05a3a9c4eb7d825bb4408445
+      internalID: -481399758
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IdleSlimeDashAnimation_20
+      name: StoneIdle_4
       rect:
         serializedVersion: 2
-        x: 105
-        y: 35
-        width: 32
-        height: 17
+        x: 107
+        y: 124
+        width: 24
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -552,20 +200,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0a6449a9a2a778045968a54f48ba25ba
-      internalID: 142931759
+      spriteID: 7b30c97e5105c1b4586105325248cb1e
+      internalID: 669611586
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IdleSlimeDashAnimation_21
+      name: StoneIdle_5
       rect:
         serializedVersion: 2
-        x: 140
-        y: 35
-        width: 32
-        height: 17
+        x: 142
+        y: 124
+        width: 24
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -574,20 +222,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1896674075aa0bd49a87fa8a798d2602
-      internalID: -295310872
+      spriteID: d771214d70ca7234c8dd4bd0bbc359ae
+      internalID: -578582791
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IdleSlimeDashAnimation_22
+      name: StoneIdle_6
       rect:
         serializedVersion: 2
-        x: 175
-        y: 35
-        width: 29
-        height: 19
+        x: 177
+        y: 124
+        width: 24
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -596,20 +244,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d18a2471af602c04cbae6fecdc82d0ab
-      internalID: 265458962
+      spriteID: b1e7bf0d368b5b64d88ccf707618506d
+      internalID: -792727830
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IdleSlimeDashAnimation_23
+      name: StoneIdle_7
       rect:
         serializedVersion: 2
-        x: 4
-        y: 5
-        width: 25
-        height: 21
+        x: 2
+        y: 94
+        width: 24
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -618,20 +266,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eff8a631da3920c4c954228c882688e2
-      internalID: 939721663
+      spriteID: 3cb04eb66b4358445b94f313fbbc1ac4
+      internalID: -31293641
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IdleSlimeDashAnimation_24
+      name: StoneIdle_8
       rect:
         serializedVersion: 2
-        x: 39
-        y: 5
-        width: 25
-        height: 21
+        x: 37
+        y: 94
+        width: 24
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -640,20 +288,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a472f655c005018479910e72cc456ad4
-      internalID: 1295875361
+      spriteID: 79ffe18bd4ad1454ba044af4d559b0d4
+      internalID: -347068900
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IdleSlimeDashAnimation_25
+      name: StoneIdle_9
       rect:
         serializedVersion: 2
-        x: 74
-        y: 5
-        width: 25
-        height: 20
+        x: 72
+        y: 94
+        width: 24
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -662,20 +310,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 453d28b7ecf22304585ccf468db393ef
-      internalID: 1694922115
+      spriteID: 899ff1394eef60e4b88036f6651025b0
+      internalID: 1645672749
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IdleSlimeDashAnimation_26
+      name: StoneIdle_10
       rect:
         serializedVersion: 2
-        x: 110
-        y: 5
-        width: 25
-        height: 19
+        x: 107
+        y: 94
+        width: 24
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -684,20 +332,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9adf1b5ead4c41042b47380db4f9d6ba
-      internalID: 1772898614
+      spriteID: c31cc98fa5406354c9e963d2915bbdeb
+      internalID: -830465853
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IdleSlimeDashAnimation_27
+      name: StoneIdle_11
       rect:
         serializedVersion: 2
-        x: 145
-        y: 5
-        width: 25
-        height: 19
+        x: 142
+        y: 94
+        width: 24
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -706,20 +354,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2049527d2f21b6c48b9750ef67fd216c
-      internalID: 2117395910
+      spriteID: 617e8b801f73a9246ba9f64e6e09b518
+      internalID: -875788681
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IdleSlimeDashAnimation_28
+      name: StoneIdle_12
       rect:
         serializedVersion: 2
-        x: 180
-        y: 5
-        width: 25
-        height: 19
+        x: 177
+        y: 94
+        width: 24
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -728,8 +376,404 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 315899453efd0f64b8d58e05afbc1f66
-      internalID: 662417849
+      spriteID: fd79c8d22c85b7d4da79c8836837a776
+      internalID: -1921719626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneIdle_13
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 64
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d973b96973e8744f860424a62483b56
+      internalID: -1993584509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneIdle_14
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 64
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bf4637f692b7b843a53d3edde5789b7
+      internalID: 227710741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneIdle_15
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 64
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6859a29bbef34ac4793cb9c1dd1949f3
+      internalID: -2020732509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneIdle_16
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 64
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64c91129ec1dea644b67a30a265b8427
+      internalID: -402201338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneIdle_17
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 64
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d3591f74e012224c88dd1821729dd0c
+      internalID: -1546891790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneIdle_18
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 64
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22d73ac9aec426346b6c5bcd3daaef2f
+      internalID: -1279955267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneIdle_19
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 34
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 109d619e3c3639a46b6a2847c32e8559
+      internalID: -1898908548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneIdle_20
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 34
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 436ef93fc48f759478b229f7bb1f6d1a
+      internalID: -73699016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneIdle_21
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 34
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1197bc66e2dbc704bba6eb09d8153da0
+      internalID: -161052047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneIdle_22
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 34
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e4295fd2cbfbad419033b89a9845379
+      internalID: -1306199761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneIdle_23
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 34
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fc2fad1e1a7ef242a13adbb5923ef61
+      internalID: 1501159665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneIdle_24
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 34
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4443ac219a05904297984187ec74866
+      internalID: -507259770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneIdle_25
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 4
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ac9ab9d4c4f9dc4290953950045f3e5
+      internalID: -680965670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneIdle_26
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 4
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f46f515620cb7394181d7a525b4495df
+      internalID: 1759585961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneIdle_27
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 4
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91e563852b327c148bc29f925467cf27
+      internalID: -175764398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneIdle_28
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 4
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71426a4c9b71a7745ab638203fbd34c4
+      internalID: -1960734352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneIdle_29
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 4
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 589de2ff0a2af6e4183bdeb53c9e463e
+      internalID: -340352833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneIdle_30
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 4
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c820b0c6066cfb74cb40fe2916a8507c
+      internalID: 644149073
       vertices: []
       indices: 
       edges: []
@@ -738,7 +782,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: b74523bc222652a4283ca99b2bd7fed5
+    spriteID: b14feeae6caebee49b687bea70d65672
     internalID: 0
     vertices: []
     indices: 
@@ -748,35 +792,37 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      IdleSlimeDashAnimation_0: -1157794038
-      IdleSlimeDashAnimation_1: -909667343
-      IdleSlimeDashAnimation_10: 713892854
-      IdleSlimeDashAnimation_11: -1696010667
-      IdleSlimeDashAnimation_12: 677849992
-      IdleSlimeDashAnimation_13: -1375193172
-      IdleSlimeDashAnimation_14: -589221286
-      IdleSlimeDashAnimation_15: -1827712092
-      IdleSlimeDashAnimation_16: 641263759
-      IdleSlimeDashAnimation_17: 533577458
-      IdleSlimeDashAnimation_18: 1374781080
-      IdleSlimeDashAnimation_19: -352195793
-      IdleSlimeDashAnimation_2: 601520161
-      IdleSlimeDashAnimation_20: 142931759
-      IdleSlimeDashAnimation_21: -295310872
-      IdleSlimeDashAnimation_22: 265458962
-      IdleSlimeDashAnimation_23: 939721663
-      IdleSlimeDashAnimation_24: 1295875361
-      IdleSlimeDashAnimation_25: 1694922115
-      IdleSlimeDashAnimation_26: 1772898614
-      IdleSlimeDashAnimation_27: 2117395910
-      IdleSlimeDashAnimation_28: 662417849
-      IdleSlimeDashAnimation_3: -534737351
-      IdleSlimeDashAnimation_4: -237140772
-      IdleSlimeDashAnimation_5: -343411855
-      IdleSlimeDashAnimation_6: 824888307
-      IdleSlimeDashAnimation_7: 253241862
-      IdleSlimeDashAnimation_8: 680857946
-      IdleSlimeDashAnimation_9: -1345205903
+      StoneIdle_0: 2034535555
+      StoneIdle_1: 1963576524
+      StoneIdle_10: -830465853
+      StoneIdle_11: -875788681
+      StoneIdle_12: -1921719626
+      StoneIdle_13: -1993584509
+      StoneIdle_14: 227710741
+      StoneIdle_15: -2020732509
+      StoneIdle_16: -402201338
+      StoneIdle_17: -1546891790
+      StoneIdle_18: -1279955267
+      StoneIdle_19: -1898908548
+      StoneIdle_2: -803711244
+      StoneIdle_20: -73699016
+      StoneIdle_21: -161052047
+      StoneIdle_22: -1306199761
+      StoneIdle_23: 1501159665
+      StoneIdle_24: -507259770
+      StoneIdle_25: -680965670
+      StoneIdle_26: 1759585961
+      StoneIdle_27: -175764398
+      StoneIdle_28: -1960734352
+      StoneIdle_29: -340352833
+      StoneIdle_3: -481399758
+      StoneIdle_30: 644149073
+      StoneIdle_4: 669611586
+      StoneIdle_5: -578582791
+      StoneIdle_6: -792727830
+      StoneIdle_7: -31293641
+      StoneIdle_8: -347068900
+      StoneIdle_9: 1645672749
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

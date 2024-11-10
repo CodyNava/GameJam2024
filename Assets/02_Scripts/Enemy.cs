@@ -14,12 +14,15 @@ public class Enemy : MonoBehaviour, i_Update
     public float chargeDelay;
     public float chargeDistance;
     public float chargeCoolDown;
+    public ParticleSystem hitEffect;
     [Header("Bools")]
     public bool rangedEnemy;
     public bool meleeEnemy;
     public bool chargeReady;
     public bool isDead;
     public bool isCharging;
+
+    public Animator animator;
     private Transform playerTransform;
     private Vector2 chargeTarget;
     private void Start() { UpdateManager.Instance.RegisterUpdate(this); currentHealth = maxHealth; playerTransform = GameObject.FindGameObjectWithTag("Player").transform; }
@@ -45,6 +48,7 @@ public class Enemy : MonoBehaviour, i_Update
 
                 if (distanceToPlayer <= detectionRadius && distanceToPlayer > chargeDistance)
                 {
+                    animator.SetBool("IsMoving", true);
                     transform.position = Vector2.MoveTowards(transform.position, playerTransform.position, moveSpeed * Time.deltaTime);
                 }
                 else if (distanceToPlayer <= chargeDistance)
@@ -55,13 +59,19 @@ public class Enemy : MonoBehaviour, i_Update
                         StartCoroutine(PauseAndCharge());
                     }
                 }
+                else
+                {
+                    animator.SetBool("IsMoving", false);
+                }
             }
+
         }
     }
     private System.Collections.IEnumerator PauseAndCharge()
     {
         isCharging = true;
         chargeReady = false;
+        animator.SetTrigger("Attack");
         yield return new WaitForSeconds(chargeDelay);
         while (Vector2.Distance(transform.position, chargeTarget) > 0.1f)
         {
@@ -82,11 +92,12 @@ public class Enemy : MonoBehaviour, i_Update
     }
     public void TakeDamage()
     {
+        hitEffect.Play();
         currentHealth -= PlayerStats.Instance.damage;
     }
     public void DealDamage()
     {
-        if (!BoolControler.Instance.isDashing)
+        if (!BoolControler.Instance.isDashing || !BoolControler.Instance.useWaterAbility)
         {
             PlayerStats.Instance.currentHealth -= damage;
         }
