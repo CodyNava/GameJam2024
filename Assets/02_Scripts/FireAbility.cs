@@ -10,6 +10,7 @@ public class FireAbility : MonoBehaviour, i_Update
     private Vector2 lastMovementDirection;
     public float shotForce;
     [SerializeField] float lastDashTime = 0f;
+    public Animator fireAnimation;
 
     private void Start() { UpdateManager.Instance.RegisterUpdate(this); }
     private void OnDisable() { UpdateManager.Instance.UnregisterUpdate(this); }
@@ -32,12 +33,13 @@ public class FireAbility : MonoBehaviour, i_Update
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
+            fireAnimation.SetTrigger("FireAbility");
             GameObject SpawnedFireball = Instantiate(firaball, FireballSpawnTransform.position, FireballSpawnTransform.rotation);
             SpawnedFireball.GetComponent<Rigidbody2D>().AddForce(lastMovementDirection * shotForce, ForceMode2D.Impulse);
-            
             canUseAbility = false;
             yield return new WaitForSeconds(FireballCooldown);
             canUseAbility = true;
+            fireAnimation.ResetTrigger("FireAbility");
         }
     }
 }

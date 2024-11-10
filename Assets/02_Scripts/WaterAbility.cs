@@ -14,6 +14,7 @@ public class WaterAbility : MonoBehaviour, i_Update
     private float originalSpeed;
     private float lastAbilityUseTime = 0f;
     public float cooldown = 2f;
+    public Animator waterAnimation;
     private void Start()
     {
         UpdateManager.Instance.RegisterUpdate(this);
@@ -42,6 +43,7 @@ public class WaterAbility : MonoBehaviour, i_Update
 
     private IEnumerator UsingWaterAbility()
     {
+        waterAnimation.SetTrigger("WaterAbility");
         BoolControler.Instance.useWaterAbility = true;
 
         float timeelapsed = 0f;

@@ -3712,6 +3712,13 @@ MonoBehaviour:
   canUseAbility: 1
   shotForce: 20
   lastDashTime: 0
+  fireAnimation: {fileID: 104529436}
+--- !u!95 &104529436 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 6527674128729575425, guid: bdacd18c9cd9dc644ac5c6cf26c4a1ff,
+    type: 3}
+  m_PrefabInstance: {fileID: 385522716}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &108103652
 GameObject:
   m_ObjectHideFlags: 0
@@ -14926,6 +14933,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 1972435700805937315, guid: bdacd18c9cd9dc644ac5c6cf26c4a1ff,
+        type: 3}
+      propertyPath: stoneAnimation
+      value: 
+      objectReference: {fileID: 104529436}
     - target: {fileID: 3480480548547304849, guid: bdacd18c9cd9dc644ac5c6cf26c4a1ff,
         type: 3}
       propertyPath: m_IsTrigger
@@ -14976,6 +14988,21 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 6345788493836404223, guid: bdacd18c9cd9dc644ac5c6cf26c4a1ff,
+        type: 3}
+      propertyPath: waterBoost
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6345788493836404223, guid: bdacd18c9cd9dc644ac5c6cf26c4a1ff,
+        type: 3}
+      propertyPath: boostDuration
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6345788493836404223, guid: bdacd18c9cd9dc644ac5c6cf26c4a1ff,
+        type: 3}
+      propertyPath: waterAnimation
+      value: 
+      objectReference: {fileID: 104529436}
     - target: {fileID: 6751779687935793125, guid: bdacd18c9cd9dc644ac5c6cf26c4a1ff,
         type: 3}
       propertyPath: m_LocalPosition.x
