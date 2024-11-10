@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 7572767065927421280}
   m_Layer: 0
   m_Name: MeeleEnemy
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -64,6 +64,7 @@ MonoBehaviour:
   chargeReady: 1
   isDead: 0
   isCharging: 0
+  isEnemyStunned: 0
   animator: {fileID: 4926199930523271727}
 --- !u!50 &5411711216502122582
 Rigidbody2D:
