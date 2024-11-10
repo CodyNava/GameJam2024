@@ -10,7 +10,7 @@ public class PlayerDash : MonoBehaviour, i_Update
     public float dashDistance = 3f;         // Entfernung des Dashes
     public float dashTime = 2f;           // Dauer des Dashes
     public float cooldown = 2f;             //Dash cooldown
-    private float lastDashTime = 0f;        // Zeitpunkt für denletzten Dash
+    [SerializeField] float lastDashTime = 0f;        // Zeitpunkt für denletzten Dash
     private Vector2 lastMovementDirection;  // Speichert die letzte Bewegungsrichtung
     private bool isDashing = false;
     public TrailRenderer trailRenderer;

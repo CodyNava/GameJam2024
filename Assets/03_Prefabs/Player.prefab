@@ -246,12 +246,14 @@ GameObject:
   - component: {fileID: 6751779687935793125}
   - component: {fileID: 2747365055062370402}
   - component: {fileID: 3779925804506205294}
+  - component: {fileID: 6345788493836404223}
   - component: {fileID: 4757369772277581376}
   - component: {fileID: 4493970694533742224}
   - component: {fileID: 3480480548547304849}
   - component: {fileID: 506686158039102575}
   - component: {fileID: 1704492576964458631}
   - component: {fileID: 6527674128729575425}
+  - component: {fileID: 223375749631706719}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -359,6 +361,21 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
+--- !u!114 &6345788493836404223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4782648880747417232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94445abc9bae7db4c961b6786a64410c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waterBoost: 12.2
+  boostDuration: 5.52
+  cooldown: 2
 --- !u!114 &4757369772277581376
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -445,6 +462,7 @@ MonoBehaviour:
   dashDistance: 4
   dashTime: 0.1
   cooldown: 1
+  lastDashTime: 0
   trailRenderer: {fileID: 1477638712027312714}
   dashAnimation: {fileID: 6527674128729575425}
 --- !u!114 &1704492576964458631
@@ -460,7 +478,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
-  movesSpeed: 2
+  movesSpeed: 3
   maxHealth: 5
   currentHealth: 5
 --- !u!95 &6527674128729575425
@@ -485,6 +503,21 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &223375749631706719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4782648880747417232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8da7490558d4ad24eadd07f82ffd954a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cooldownSlider: []
+  canChangeForm: 1
+  animator: {fileID: 6527674128729575425}
 --- !u!1 &6242772293541280157
 GameObject:
   m_ObjectHideFlags: 0
