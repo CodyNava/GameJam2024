@@ -14,36 +14,59 @@ public class NormalAbility : MonoBehaviour, i_Update
     private bool isDashing = false;
     public TrailRenderer trailRenderer;
     public Animator dashAnimation;
-    public void CustomUpdate()
+    private bool canDash;
+
+    public void Update()
     {
+        canDash = Input.GetKey(KeyCode.Space);
         if (BoolControler.Instance.isNormal)
         {
             Vector2 inputDirection = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
 
-            if (inputDirection != Vector2.zero)
+
+            lastMovementDirection = inputDirection.normalized;
+
+            if (canDash)
             {
-                lastMovementDirection = inputDirection.normalized;
-            }
-            if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Joystick1Button1))
-            {
-                if (lastDashTime >= cooldown)
+                if (lastDashTime <= Time.time - cooldown)
                 {
+                    lastDashTime = Time.time;
                     StartCoroutine(Dash());
                 }
+                canDash = false;
             }
-            lastDashTime += Time.deltaTime;
         }
+    }
+    
+    public void CustomUpdate()
+    {
     }
     IEnumerator Dash()
     {
+        
+        Vector2 dashPosition;
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, lastMovementDirection, dashDistance, LayerMask.GetMask("Wall"));
+        if (hit)
+        {
+            
+            dashPosition = hit.point;
+
+        }
+        else
+        {
+            
+            dashPosition = (Vector2)transform.position + lastMovementDirection * dashDistance;
+
+        }
         dashAnimation.SetTrigger("Dash");
         BoolControler.Instance.isDashing = true;
         trailRenderer.emitting = true;
-        Vector2 dashPosition = (Vector2)transform.position + lastMovementDirection * dashDistance;
+        
 
         float timeelapsed = 0f;
         while (timeelapsed <= dashTime)
         {
+            
             float dashspeed = dashTime;
 
 
@@ -51,8 +74,9 @@ public class NormalAbility : MonoBehaviour, i_Update
             timeelapsed += Time.deltaTime;
             yield return null;
         }
-        lastDashTime = 0f;
+
         BoolControler.Instance.isDashing = false;
         trailRenderer.emitting = false;
+        
     }
 }

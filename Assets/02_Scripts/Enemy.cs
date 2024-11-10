@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Enemy : MonoBehaviour, i_Update
+public class Enemy : MonoBehaviour
 {
     [Header("Stats")]
     public float maxHealth;
@@ -27,9 +27,9 @@ public class Enemy : MonoBehaviour, i_Update
     public Animator animator;
     private Transform playerTransform;
     private Vector2 chargeTarget;
-    private void Start() { UpdateManager.Instance.RegisterUpdate(this); currentHealth = maxHealth; playerTransform = GameObject.FindGameObjectWithTag("Player").transform; }
-    private void OnDisable() { UpdateManager.Instance.UnregisterUpdate(this); }
-    public void CustomUpdate()
+    private void Start() { currentHealth = maxHealth; playerTransform = GameObject.FindGameObjectWithTag("Player").transform; }
+
+    public void Update()
     {
         if (currentHealth <= 0f)
         {
