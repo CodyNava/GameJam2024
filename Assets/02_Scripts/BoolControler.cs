@@ -15,6 +15,7 @@ public class BoolControler : MonoBehaviour
     public bool useWaterAbility;
     public bool useEarthAbility;
     public bool useFireAbility;
+    public bool isEnemyStunned;
     
 
     //-----------//

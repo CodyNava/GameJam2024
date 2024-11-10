@@ -94,7 +94,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _connection: {fileID: 0}
   _targetScene: 
-  _spawnPoint: {fileID: 4950724466306540513}
+  _spawnPoint: {fileID: 6319630325404380533}
 --- !u!1 &9076035325391562990
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using UnityEngine;
 
@@ -53,9 +54,23 @@ public class WaterAbility : MonoBehaviour, i_Update
             timeelapsed += Time.deltaTime;
             yield return null;
         }
-
         playerMovement.movesSpeed = originalSpeed;
         lastAbilityUseTime = 0f;
         BoolControler.Instance.useWaterAbility = false;
     }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (BoolControler.Instance.useWaterAbility && collision.gameObject.tag == "Enemy")
+        {
+            StartCoroutine(PauseMovement());
+        }
+    }
+    private IEnumerator PauseMovement()
+    {
+        BoolControler.Instance.isEnemyStunned = true;
+        yield return new WaitForSeconds(5f);
+        BoolControler.Instance.isEnemyStunned = false;
+    }
+    
 }

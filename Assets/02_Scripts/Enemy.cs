@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class Enemy : MonoBehaviour, i_Update
@@ -14,6 +15,7 @@ public class Enemy : MonoBehaviour, i_Update
     public float chargeDelay;
     public float chargeDistance;
     public float chargeCoolDown;
+    public float stunTime = 5f;
     public ParticleSystem hitEffect;
     [Header("Bools")]
     public bool rangedEnemy;
@@ -35,9 +37,15 @@ public class Enemy : MonoBehaviour, i_Update
         }
         else
         {
-            DetectAndChargePlayer();
+            if (!BoolControler.Instance.isEnemyStunned)
+            {
+                DetectAndChargePlayer();
+            }
         }
     }
+
+    
+    
     private void DetectAndChargePlayer()
     {
         if (meleeEnemy)
