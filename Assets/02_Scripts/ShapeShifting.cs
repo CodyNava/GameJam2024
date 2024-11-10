@@ -2,16 +2,15 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class ShapeShifting : MonoBehaviour, i_Update
+public class ShapeShifting : MonoBehaviour
 {
-    private void Start() { UpdateManager.Instance.RegisterUpdate(this); }
-    private void OnDisable() { UpdateManager.Instance.UnregisterUpdate(this); }
+
     //--------------------------------------------------------//
     public Slider[] cooldownSlider;
     public bool canChangeForm = true;
     private float cooldownDuration = 5f;
     public Animator animator;
-    public void CustomUpdate()
+    public void Update()
     {
         //float dpadHorizontal = Input.GetAxis("DPadHorizontal");
         //float dpadVertical = Input.GetAxis("DPadVertical");

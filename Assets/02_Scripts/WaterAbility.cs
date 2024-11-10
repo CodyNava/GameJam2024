@@ -1,9 +1,8 @@
 using System.Collections;
 using UnityEngine;
 
-public class WaterAbility : MonoBehaviour, i_Update
+public class WaterAbility : MonoBehaviour
 {
-    private void OnDisable() { UpdateManager.Instance.UnregisterUpdate(this); }
 
 
     [SerializeField] private float waterBoost = 2f;
@@ -17,7 +16,6 @@ public class WaterAbility : MonoBehaviour, i_Update
     public Animator waterAnimation;
     private void Start()
     {
-        UpdateManager.Instance.RegisterUpdate(this);
 
         // saves base player movement speed
         playerMovement = GetComponent<PlayerStats>();
@@ -28,7 +26,7 @@ public class WaterAbility : MonoBehaviour, i_Update
         }
     }
 
-    public void CustomUpdate()
+    public void Update()
     {
         // use ability on button press
         if (Input.GetKeyDown(KeyCode.Space) && !useWaterAbility && BoolControler.Instance.isWater)

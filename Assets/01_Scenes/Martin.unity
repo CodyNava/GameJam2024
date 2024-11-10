@@ -3719,6 +3719,12 @@ Animator:
     type: 3}
   m_PrefabInstance: {fileID: 385522716}
   m_PrefabAsset: {fileID: 0}
+--- !u!50 &104529443 stripped
+Rigidbody2D:
+  m_CorrespondingSourceObject: {fileID: 3779925804506205294, guid: bdacd18c9cd9dc644ac5c6cf26c4a1ff,
+    type: 3}
+  m_PrefabInstance: {fileID: 385522716}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &108103652
 GameObject:
   m_ObjectHideFlags: 0
@@ -14928,6 +14934,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 506686158039102575, guid: bdacd18c9cd9dc644ac5c6cf26c4a1ff,
+        type: 3}
+      propertyPath: rigidbody2d
+      value: 
+      objectReference: {fileID: 104529443}
     - target: {fileID: 1911900851569718563, guid: bdacd18c9cd9dc644ac5c6cf26c4a1ff,
         type: 3}
       propertyPath: m_Layer
@@ -19426,7 +19437,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 483798217}
-  - component: {fileID: 483798216}
   - component: {fileID: 483798215}
   - component: {fileID: 483798214}
   - component: {fileID: 483798213}
@@ -19972,33 +19982,6 @@ PolygonCollider2D:
       - {x: -1.3182893, y: -3.5716188}
       - {x: 5.0527344, y: -3.5634506}
   m_UseDelaunayMesh: 0
---- !u!50 &483798216
-Rigidbody2D:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 483798208}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDamping: 0
-  m_AngularDamping: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 7
 --- !u!4 &483798217
 Transform:
   m_ObjectHideFlags: 0

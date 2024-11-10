@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour, i_Update
@@ -9,26 +10,30 @@ public class PlayerMovement : MonoBehaviour, i_Update
     private Vector2 movement;
     private bool facingRight = true;
     private void OnDisable() { UpdateManager.Instance.UnregisterUpdate(this); }
-
+    private float horizontalInput;
+    private float vertiacalInput;
     void Start()
     {
         UpdateManager.Instance.RegisterUpdate(this);
         rb = GetComponent<Rigidbody2D>();
     }
 
+    private void Update()
+    {
+        horizontalInput = Input.GetAxisRaw("Horizontal");
+        vertiacalInput = Input.GetAxisRaw("Vertical");
+    }
+
     public void CustomUpdate()
     {
         OnMove();
-    }
-
-    void FixedUpdate()
-    {
         rb.MovePosition(rb.position + movement * PlayerStats.Instance.movesSpeed * Time.fixedDeltaTime);
     }
+
+
     public void OnMove()
     {
-        float horizontalInput = Input.GetAxisRaw("Horizontal");
-        float vertiacalInput = Input.GetAxisRaw("Vertical");
+        
 
         running.SetFloat("Speed", Mathf.Abs(vertiacalInput + horizontalInput));
 
